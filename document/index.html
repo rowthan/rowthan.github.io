@@ -1,0 +1,51 @@
+<!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>俄罗斯方块</title>
+
+    <script src="Tetris.js" type="text/javascript"></script>
+
+    <style type="text/css">
+	
+        *{padding:0px; margin: 0px;}   body{background: #212121; margin:auto;}
+        #main_box,#right_info {height:560px;float:left;margin-top:30px;margin:auto;} 
+        #main_box{width:308px; overflow: hidden;margin-top:30px; margin-left:250px;border: 2px solid #0066cc; position:relative; background: url(img/tetrisbg.gif)}
+        #right_info{width:200px;margin-left:20px;margin-top:30px; background:#336699;border: 2px solid #0066cc;}
+        #next{ width: 168px; height: 168px; position:relative; margin: 0 auto;background: #7494f1; margin-top: 20px;} /*下一个将要出现的显示框*/
+        p.cod{ width: 168px; margin: 30px auto 0 auto; text-align: center;}/*得分、暂停、开始 p可以去掉，但是为方便查看可以保留 以区分下面的id cod*/
+        #cod{ background: none; width:60px; font-size: 13px; border: none;}
+        #main_box  div,#next div{
+            height: 28px;
+            width: 28px;
+            background: url(img/tan_03.png) no-repeat 1px 0px;
+            position: absolute;
+        }
+        .info{border: 1px #6699cc solid; width: 148px;   margin:auto;margin-top:120px; padding: 8px; font-size: 12px; line-height: 24px;float:button;}
+        #begin,#stopid{ display:block; margin: 0 auto; height: 42px; width: 108px; background: url(img/btn.png) no-repeat;color:#fafafa; text-decoration: none; text-align: center;line-height:42px;font-size: 13px; font-family: '微软雅黑'}
+        #begin:hover,#stopid:hover{ background:url(img/btn.png) no-repeat 0px -42px;}
+    </style>
+
+</head>
+
+<body>
+     <div id="main_box">
+
+     </div>
+    <div id="right_info">
+       <p id="next">
+
+       </p>
+       <p class="cod">得分：<input type="text" value="0" id="cod" readonly="readonly"/></p>
+        <p class="cod">
+            <a href="javascript:" id="begin">开始</a>  <br/>
+            <a href="javascript:" id="stopid">暂停</a>
+        </p>
+       <p class="info">made by than<br/>at 2014.12.25</p>
+    </div>
+
+   
+</body>
+</html>
