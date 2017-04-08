@@ -1,0 +1,1 @@
+post.excerpt | strip_html | strip

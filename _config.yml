@@ -4,24 +4,24 @@
 baseurl:
 url: http://rowthan.github.io
 date_format: "ordinal"
-title:
-subtitle:
+title:rowthan
+subtitle:记录所想所做
 description:
 keywords:
 favicon: /favicon.ico
-timezone: Asia/Shenzhen
+timezone: Asia/ChongQing
 encoding: "utf-8"
 side_bar_repo_limit: 5
 
 # ---------------- #
 #      Author      #
 # ---------------- #
-author: JiuJiuShu
-organization: OPPO, Inc.
-organization_url: http://www.oppo.com
-github_username: wenfengtou
-location: Shenzhen, China
-email: qianmayi@gmail.com
+author:
+organization: travel, Inc.
+organization_url:
+github_username: rowthan
+location: ChongQing, China
+email: 912464767@qq.com
 
 # ---------------- #
 #    Navigation    #
