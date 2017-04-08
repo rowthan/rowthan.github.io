@@ -5,7 +5,7 @@ description:
 keywords: 
 comments: true
 menu: 关于
-permalink: /about/
+permalink: /me/
 ---
 
 我是
