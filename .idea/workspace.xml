@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d1b635c-321c-4602-ac1b-8b88cdd4a99f" name="Default" comment="jekyll to root">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CNAME" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CNAME" afterPath="$PROJECT_DIR$/CNAME_example" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -73,7 +70,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="open-source.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="open-source.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/open-source.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -82,6 +79,16 @@
                 <folding />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="311">
+              <caret line="62" column="5" lean-forward="false" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -122,7 +129,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/blog/README.md" />
         <option value="$PROJECT_DIR$/blog/pages/about.md" />
         <option value="$PROJECT_DIR$/blog/_data/social.yml" />
@@ -130,6 +136,7 @@
         <option value="$PROJECT_DIR$/blog/_includes/article-footer.html" />
         <option value="$PROJECT_DIR$/blog/CNAME" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -255,7 +262,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1491656518340</updated>
-      <workItem from="1491656520537" duration="2463000" />
+      <workItem from="1491656520537" duration="2561000" />
     </task>
     <task id="LOCAL-00001" summary="jekyll init">
       <created>1491658335976</created>
@@ -268,7 +275,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2463000" />
+    <option name="totallyTimeSpent" value="2561000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1292" height="768" extended-state="0" />
@@ -326,14 +333,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blog/favicon.ico">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -736,6 +735,14 @@
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="62" column="5" lean-forward="false" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
