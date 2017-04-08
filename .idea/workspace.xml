@@ -2,259 +2,600 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d1b635c-321c-4602-ac1b-8b88cdd4a99f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/images/octicons-bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/images/octocat-spinner-16px.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/images/octocat-spinner-32-EAF2F5.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/octicons/octicons-local.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/octicons/octicons.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/octicons/octicons.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/octicons/octicons.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/overtrue-share.js/dist/fonts/iconfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/overtrue-share.js/dist/fonts/iconfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/overtrue-share.js/dist/fonts/iconfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/share.js/dist/fonts/iconfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/share.js/dist/fonts/iconfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/share.js/dist/fonts/iconfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/rowthan.github.io.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/CNAME" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/Gemfile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/_config.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/_data/links.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/_data/skills.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/_data/social.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/_drafts/activity-lifecycle.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/_drafts/build-cm-yourself.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/_drafts/template.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/_drafts/threadmanage.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/_drafts/travis-ci-for-gitbook.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/_includes/article-footer.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/_includes/comments.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/_includes/footer.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/_includes/header.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/_includes/sidebar-categories-nav.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/_includes/sidebar-popular-repo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/_includes/sidebar-post-nav.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/_includes/sidebar-search.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/_includes/sns-share.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/_layouts/categories.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/_layouts/default.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/_layouts/page.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/_layouts/post.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/_layouts/wiki.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/_posts/2016-10-22-vim-markdown-toc-release.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/_posts/2016-12-14-rtfsc-with-opengrok.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/_posts/blog/2017-02-19-the-kite-runner.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/_posts/template.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/_wiki/template.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/css/components/boxed-group.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/css/components/collection.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/css/components/repo-card.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/css/globals/common.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/css/globals/prism.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/css/globals/responsive.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/css/modules/sidebar-search.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/css/pages/index.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/css/posts/index.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/css/pygments/default.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/css/sections/article.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/css/sections/mini-repo-list.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/css/sections/repo-list.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/js/geopattern.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/js/jquery-ui.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/js/jquery.toc.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/js/lunr.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/js/prism.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/js/search.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/js/underscore-min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/search_data.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/jquery/dist/jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/jquery/dist/jquery.min.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/octicons/octicons.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/octicons/octicons.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/alert.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/arrow-down.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/arrow-left.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/arrow-right.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/arrow-small-down.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/arrow-small-left.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/arrow-small-right.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/arrow-small-up.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/arrow-up.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/beaker.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/bell.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/book.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/bookmark.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/briefcase.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/broadcast.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/browser.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/bug.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/calendar.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/check.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/checklist.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/chevron-down.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/chevron-left.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/chevron-right.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/chevron-up.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/circle-slash.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/circuit-board.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/clippy.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/clock.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/cloud-download.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/cloud-upload.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/code.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/color-mode.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/comment-discussion.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/comment.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/credit-card.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/dash.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/dashboard.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/database.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/desktop-download.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/device-camera-video.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/device-camera.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/device-desktop.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/device-mobile.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/diff-added.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/diff-ignored.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/diff-modified.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/diff-removed.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/diff-renamed.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/diff.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/ellipsis.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/eye.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/file-binary.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/file-code.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/file-directory.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/file-media.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/file-pdf.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/file-submodule.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/file-symlink-directory.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/file-symlink-file.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/file-text.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/file-zip.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/flame.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/fold.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/gear.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/gift.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/gist-secret.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/gist.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/git-branch.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/git-commit.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/git-compare.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/git-merge.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/git-pull-request.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/globe.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/graph.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/heart.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/history.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/home.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/horizontal-rule.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/hubot.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/inbox.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/info.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/issue-closed.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/issue-opened.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/issue-reopened.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/jersey.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/key.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/keyboard.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/law.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/light-bulb.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/link-external.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/link.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/list-ordered.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/list-unordered.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/location.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/lock.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/logo-github.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/mail-read.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/mail-reply.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/mail.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/mark-github.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/markdown.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/megaphone.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/mention.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/milestone.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/mirror.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/mortar-board.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/mute.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/no-newline.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/octoface.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/organization.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/package.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/paintcan.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/pencil.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/person.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/pin.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/plug.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/plus.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/primitive-dot.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/primitive-square.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/pulse.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/question.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/quote.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/radio-tower.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/repo-clone.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/repo-force-push.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/repo-forked.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/repo-pull.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/repo-push.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/repo.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/rocket.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/rss.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/ruby.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/screen-full.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/screen-normal.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/search.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/server.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/settings.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/shield.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/sign-in.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/sign-out.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/squirrel.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/star.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/stop.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/sync.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/tag.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/telescope.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/terminal.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/three-bars.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/thumbsdown.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/thumbsup.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/tools.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/trashcan.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/triangle-down.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/triangle-left.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/triangle-right.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/triangle-up.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/unfold.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/unmute.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/versions.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/watch.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/x.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/zap.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/overtrue-share.js/dist/css/share.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/overtrue-share.js/dist/fonts/iconfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/overtrue-share.js/dist/js/share.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/primer-css/css/primer.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/primer-markdown/dist/user-content.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/share.js/dist/css/share.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/share.js/dist/fonts/iconfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/share.js/dist/js/jquery.qrcode.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/assets/vendor/share.js/dist/js/share.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/pages/404.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/pages/about.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/pages/categories.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/pages/links.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/pages/open-source.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/pages/wiki.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CNAME" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/jquerylove/css/ionicons.min.css" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/CNAME" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jquerylove/css/ionicons.min.css" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/RegEx/index.md" afterPath="$PROJECT_DIR$/v1/RegEx/index.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/LICENSE" afterPath="$PROJECT_DIR$/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/_config.yml" afterPath="$PROJECT_DIR$/_config.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/_data/links.yml" afterPath="$PROJECT_DIR$/_data/links.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/_data/skills.yml" afterPath="$PROJECT_DIR$/_data/skills.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/_data/social.yml" afterPath="$PROJECT_DIR$/_data/social.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/_drafts/activity-lifecycle.md" afterPath="$PROJECT_DIR$/_drafts/activity-lifecycle.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/_drafts/build-cm-yourself.md" afterPath="$PROJECT_DIR$/_drafts/build-cm-yourself.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/_drafts/template.md" afterPath="$PROJECT_DIR$/_posts/template.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/_drafts/threadmanage.md" afterPath="$PROJECT_DIR$/_drafts/threadmanage.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/_drafts/travis-ci-for-gitbook.md" afterPath="$PROJECT_DIR$/_drafts/travis-ci-for-gitbook.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/_includes/article-footer.html" afterPath="$PROJECT_DIR$/_includes/article-footer.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/_includes/comments.html" afterPath="$PROJECT_DIR$/_includes/comments.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/_includes/footer.html" afterPath="$PROJECT_DIR$/_includes/footer.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/_includes/header.html" afterPath="$PROJECT_DIR$/_includes/header.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/_includes/sidebar-categories-nav.html" afterPath="$PROJECT_DIR$/_includes/sidebar-categories-nav.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/_includes/sidebar-popular-repo.html" afterPath="$PROJECT_DIR$/_includes/sidebar-popular-repo.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/_includes/sidebar-post-nav.html" afterPath="$PROJECT_DIR$/_includes/sidebar-post-nav.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/_includes/sidebar-search.html" afterPath="$PROJECT_DIR$/_includes/sidebar-search.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/_includes/sns-share.html" afterPath="$PROJECT_DIR$/_includes/sns-share.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/_layouts/categories.html" afterPath="$PROJECT_DIR$/_layouts/categories.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/_layouts/default.html" afterPath="$PROJECT_DIR$/_layouts/default.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/_layouts/page.html" afterPath="$PROJECT_DIR$/_layouts/page.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/_layouts/post.html" afterPath="$PROJECT_DIR$/_layouts/post.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/_layouts/wiki.html" afterPath="$PROJECT_DIR$/_layouts/wiki.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/_posts/2016-10-22-vim-markdown-toc-release.md" afterPath="$PROJECT_DIR$/_posts/2016-10-22-vim-markdown-toc-release.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/_posts/2016-12-14-rtfsc-with-opengrok.md" afterPath="$PROJECT_DIR$/_posts/2016-12-14-rtfsc-with-opengrok.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/_posts/blog/2017-02-19-the-kite-runner.md" afterPath="$PROJECT_DIR$/_posts/blog/2017-02-19-the-kite-runner.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/_posts/template.md" afterPath="$PROJECT_DIR$/_drafts/template.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/_wiki/template.md" afterPath="$PROJECT_DIR$/_wiki/template.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/css/components/boxed-group.css" afterPath="$PROJECT_DIR$/assets/css/components/boxed-group.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/css/components/collection.css" afterPath="$PROJECT_DIR$/assets/css/components/collection.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/css/components/repo-card.css" afterPath="$PROJECT_DIR$/assets/css/components/repo-card.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/css/globals/common.css" afterPath="$PROJECT_DIR$/assets/css/globals/common.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/css/globals/prism.css" afterPath="$PROJECT_DIR$/assets/css/globals/prism.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/css/globals/responsive.css" afterPath="$PROJECT_DIR$/assets/css/globals/responsive.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/css/modules/sidebar-search.css" afterPath="$PROJECT_DIR$/assets/css/modules/sidebar-search.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/css/pages/index.css" afterPath="$PROJECT_DIR$/assets/css/pages/index.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/css/posts/index.css" afterPath="$PROJECT_DIR$/assets/css/posts/index.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/css/pygments/default.css" afterPath="$PROJECT_DIR$/assets/css/pygments/default.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/css/sections/article.css" afterPath="$PROJECT_DIR$/assets/css/sections/article.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/css/sections/mini-repo-list.css" afterPath="$PROJECT_DIR$/assets/css/sections/mini-repo-list.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/css/sections/repo-list.css" afterPath="$PROJECT_DIR$/assets/css/sections/repo-list.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/images/octicons-bg.png" afterPath="$PROJECT_DIR$/assets/images/octicons-bg.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/images/octocat-spinner-16px.gif" afterPath="$PROJECT_DIR$/assets/images/octocat-spinner-16px.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/images/octocat-spinner-32-EAF2F5.gif" afterPath="$PROJECT_DIR$/assets/images/octocat-spinner-32-EAF2F5.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/js/geopattern.js" afterPath="$PROJECT_DIR$/assets/js/geopattern.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/js/jquery-ui.js" afterPath="$PROJECT_DIR$/assets/js/jquery-ui.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/js/jquery.toc.js" afterPath="$PROJECT_DIR$/assets/js/jquery.toc.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/js/lunr.min.js" afterPath="$PROJECT_DIR$/assets/js/lunr.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/js/prism.js" afterPath="$PROJECT_DIR$/assets/js/prism.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/js/search.js" afterPath="$PROJECT_DIR$/assets/js/search.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/js/underscore-min.js" afterPath="$PROJECT_DIR$/assets/js/underscore-min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/search_data.json" afterPath="$PROJECT_DIR$/assets/search_data.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/jquery/dist/jquery.min.js" afterPath="$PROJECT_DIR$/assets/vendor/jquery/dist/jquery.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/jquery/dist/jquery.min.map" afterPath="$PROJECT_DIR$/assets/vendor/jquery/dist/jquery.min.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/octicons/octicons-local.ttf" afterPath="$PROJECT_DIR$/assets/vendor/octicons/octicons/octicons-local.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/octicons/octicons.css" afterPath="$PROJECT_DIR$/assets/vendor/octicons/octicons/octicons.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/octicons/octicons.eot" afterPath="$PROJECT_DIR$/assets/vendor/octicons/octicons/octicons.eot" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/octicons/octicons.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/octicons/octicons.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/octicons/octicons.ttf" afterPath="$PROJECT_DIR$/assets/vendor/octicons/octicons/octicons.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/octicons/octicons.woff" afterPath="$PROJECT_DIR$/assets/vendor/octicons/octicons/octicons.woff" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/alert.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/alert.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/arrow-down.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/arrow-down.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/arrow-left.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/arrow-left.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/arrow-right.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/arrow-right.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/arrow-small-down.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/arrow-small-down.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/arrow-small-left.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/arrow-small-left.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/arrow-small-right.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/arrow-small-right.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/arrow-small-up.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/arrow-small-up.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/arrow-up.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/arrow-up.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/beaker.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/beaker.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/bell.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/bell.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/book.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/book.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/bookmark.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/bookmark.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/briefcase.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/briefcase.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/broadcast.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/broadcast.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/browser.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/browser.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/bug.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/bug.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/calendar.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/calendar.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/check.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/check.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/checklist.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/checklist.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/chevron-down.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/chevron-down.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/chevron-left.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/chevron-left.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/chevron-right.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/chevron-right.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/chevron-up.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/chevron-up.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/circle-slash.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/circle-slash.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/circuit-board.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/circuit-board.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/clippy.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/clippy.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/clock.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/clock.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/cloud-download.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/cloud-download.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/cloud-upload.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/cloud-upload.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/code.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/code.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/color-mode.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/color-mode.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/comment-discussion.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/comment-discussion.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/comment.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/comment.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/credit-card.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/credit-card.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/dash.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/dash.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/dashboard.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/dashboard.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/database.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/database.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/desktop-download.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/desktop-download.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/device-camera-video.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/device-camera-video.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/device-camera.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/device-camera.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/device-desktop.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/device-desktop.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/device-mobile.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/device-mobile.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/diff-added.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/diff-added.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/diff-ignored.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/diff-ignored.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/diff-modified.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/diff-modified.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/diff-removed.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/diff-removed.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/diff-renamed.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/diff-renamed.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/diff.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/diff.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/ellipsis.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/ellipsis.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/eye.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/eye.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/file-binary.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/file-binary.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/file-code.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/file-code.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/file-directory.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/file-directory.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/file-media.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/file-media.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/file-pdf.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/file-pdf.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/file-submodule.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/file-submodule.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/file-symlink-directory.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/file-symlink-directory.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/file-symlink-file.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/file-symlink-file.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/file-text.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/file-text.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/file-zip.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/file-zip.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/flame.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/flame.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/fold.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/fold.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/gear.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/gear.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/gift.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/gift.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/gist-secret.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/gist-secret.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/gist.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/gist.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/git-branch.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/git-branch.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/git-commit.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/git-commit.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/git-compare.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/git-compare.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/git-merge.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/git-merge.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/git-pull-request.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/git-pull-request.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/globe.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/globe.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/graph.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/graph.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/heart.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/heart.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/history.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/history.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/home.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/home.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/horizontal-rule.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/horizontal-rule.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/hubot.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/hubot.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/inbox.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/inbox.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/info.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/info.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/issue-closed.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/issue-closed.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/issue-opened.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/issue-opened.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/issue-reopened.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/issue-reopened.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/jersey.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/jersey.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/key.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/key.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/keyboard.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/keyboard.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/law.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/law.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/light-bulb.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/light-bulb.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/link-external.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/link-external.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/link.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/link.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/list-ordered.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/list-ordered.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/list-unordered.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/list-unordered.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/location.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/location.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/lock.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/lock.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/logo-github.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/logo-github.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/mail-read.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/mail-read.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/mail-reply.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/mail-reply.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/mail.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/mail.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/mark-github.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/mark-github.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/markdown.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/markdown.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/megaphone.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/megaphone.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/mention.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/mention.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/milestone.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/milestone.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/mirror.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/mirror.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/mortar-board.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/mortar-board.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/mute.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/mute.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/no-newline.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/no-newline.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/octoface.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/octoface.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/organization.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/organization.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/package.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/package.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/paintcan.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/paintcan.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/pencil.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/pencil.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/person.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/person.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/pin.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/pin.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/plug.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/plug.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/plus.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/plus.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/primitive-dot.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/primitive-dot.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/primitive-square.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/primitive-square.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/pulse.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/pulse.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/question.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/question.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/quote.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/quote.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/radio-tower.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/radio-tower.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/repo-clone.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/repo-clone.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/repo-force-push.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/repo-force-push.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/repo-forked.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/repo-forked.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/repo-pull.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/repo-pull.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/repo-push.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/repo-push.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/repo.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/repo.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/rocket.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/rocket.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/rss.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/rss.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/ruby.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/ruby.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/screen-full.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/screen-full.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/screen-normal.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/screen-normal.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/search.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/search.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/server.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/server.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/settings.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/settings.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/shield.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/shield.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/sign-in.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/sign-in.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/sign-out.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/sign-out.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/squirrel.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/squirrel.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/star.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/star.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/stop.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/stop.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/sync.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/sync.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/tag.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/tag.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/telescope.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/telescope.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/terminal.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/terminal.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/three-bars.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/three-bars.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/thumbsdown.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/thumbsdown.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/thumbsup.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/thumbsup.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/tools.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/tools.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/trashcan.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/trashcan.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/triangle-down.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/triangle-down.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/triangle-left.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/triangle-left.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/triangle-right.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/triangle-right.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/triangle-up.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/triangle-up.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/unfold.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/unfold.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/unmute.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/unmute.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/versions.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/versions.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/watch.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/watch.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/x.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/x.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/octicons/svg/zap.svg" afterPath="$PROJECT_DIR$/assets/vendor/octicons/svg/zap.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/overtrue-share.js/dist/css/share.min.css" afterPath="$PROJECT_DIR$/assets/vendor/share.js/dist/css/share.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/overtrue-share.js/dist/fonts/iconfont.eot" afterPath="$PROJECT_DIR$/assets/vendor/share.js/dist/fonts/iconfont.eot" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/overtrue-share.js/dist/fonts/iconfont.svg" afterPath="$PROJECT_DIR$/assets/vendor/share.js/dist/fonts/iconfont.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/overtrue-share.js/dist/fonts/iconfont.ttf" afterPath="$PROJECT_DIR$/assets/vendor/share.js/dist/fonts/iconfont.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/overtrue-share.js/dist/fonts/iconfont.woff" afterPath="$PROJECT_DIR$/assets/vendor/share.js/dist/fonts/iconfont.woff" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/overtrue-share.js/dist/js/share.min.js" afterPath="$PROJECT_DIR$/assets/vendor/share.js/dist/js/share.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/primer-css/css/primer.css" afterPath="$PROJECT_DIR$/assets/vendor/primer-css/css/primer.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/primer-markdown/dist/user-content.min.css" afterPath="$PROJECT_DIR$/assets/vendor/primer-markdown/dist/user-content.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/share.js/dist/css/share.min.css" afterPath="$PROJECT_DIR$/assets/vendor/overtrue-share.js/dist/css/share.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/share.js/dist/fonts/iconfont.eot" afterPath="$PROJECT_DIR$/assets/vendor/overtrue-share.js/dist/fonts/iconfont.eot" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/share.js/dist/fonts/iconfont.svg" afterPath="$PROJECT_DIR$/assets/vendor/overtrue-share.js/dist/fonts/iconfont.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/share.js/dist/fonts/iconfont.ttf" afterPath="$PROJECT_DIR$/assets/vendor/overtrue-share.js/dist/fonts/iconfont.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/share.js/dist/fonts/iconfont.woff" afterPath="$PROJECT_DIR$/assets/vendor/overtrue-share.js/dist/fonts/iconfont.woff" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/share.js/dist/js/jquery.qrcode.min.js" afterPath="$PROJECT_DIR$/assets/vendor/share.js/dist/js/jquery.qrcode.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/assets/vendor/share.js/dist/js/share.min.js" afterPath="$PROJECT_DIR$/assets/vendor/overtrue-share.js/dist/js/share.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/pages/404.md" afterPath="$PROJECT_DIR$/pages/404.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/pages/about.md" afterPath="$PROJECT_DIR$/pages/about.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/pages/categories.md" afterPath="$PROJECT_DIR$/pages/categories.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/pages/links.md" afterPath="$PROJECT_DIR$/pages/links.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/pages/open-source.md" afterPath="$PROJECT_DIR$/pages/open-source.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/pages/wiki.md" afterPath="$PROJECT_DIR$/pages/wiki.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/canvas/css/reset.min.css" afterPath="$PROJECT_DIR$/v1/canvas/css/reset.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/canvas/css/style.css" afterPath="$PROJECT_DIR$/v1/canvas/css/style.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/canvas/index.html" afterPath="$PROJECT_DIR$/v1/canvas/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/canvas/js/OrbitControls.js" afterPath="$PROJECT_DIR$/v1/canvas/js/OrbitControls.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/canvas/js/index.js" afterPath="$PROJECT_DIR$/v1/canvas/js/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/canvas/js/three.min.js" afterPath="$PROJECT_DIR$/v1/canvas/js/three.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/404.html" afterPath="$PROJECT_DIR$/v1/jquerylove/404.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/css/animate.css" afterPath="$PROJECT_DIR$/v1/jquerylove/css/animate.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/css/foundation.css" afterPath="$PROJECT_DIR$/v1/jquerylove/css/foundation.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/css/foundation.min.css" afterPath="$PROJECT_DIR$/v1/jquerylove/css/foundation.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/css/imagelightbox.css" afterPath="$PROJECT_DIR$/v1/jquerylove/css/imagelightbox.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/css/index.html" afterPath="$PROJECT_DIR$/v1/jquerylove/css/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/css/ionicons.css" afterPath="$PROJECT_DIR$/v1/jquerylove/css/ionicons.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/css/main.css" afterPath="$PROJECT_DIR$/v1/jquerylove/css/main.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/css/main_responsive.css" afterPath="$PROJECT_DIR$/v1/jquerylove/css/main_responsive.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/css/normalize.css" afterPath="$PROJECT_DIR$/v1/jquerylove/css/normalize.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/css/pageloader.css" afterPath="$PROJECT_DIR$/v1/jquerylove/css/pageloader.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/css/style-color1.css" afterPath="$PROJECT_DIR$/v1/jquerylove/css/style-color1.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/css/style-color2.css" afterPath="$PROJECT_DIR$/v1/jquerylove/css/style-color2.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/css/style-color3.css" afterPath="$PROJECT_DIR$/v1/jquerylove/css/style-color3.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/css/style-color4.css" afterPath="$PROJECT_DIR$/v1/jquerylove/css/style-color4.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/css/style-color5.css" afterPath="$PROJECT_DIR$/v1/jquerylove/css/style-color5.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/css/style-color6.css" afterPath="$PROJECT_DIR$/v1/jquerylove/css/style-color6.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/fonts/asap/Asap-Bold.otf" afterPath="$PROJECT_DIR$/v1/jquerylove/fonts/asap/Asap-Bold.otf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/fonts/asap/Asap-Bold.ttf" afterPath="$PROJECT_DIR$/v1/jquerylove/fonts/asap/Asap-Bold.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/fonts/asap/Asap-BoldItalic.otf" afterPath="$PROJECT_DIR$/v1/jquerylove/fonts/asap/Asap-BoldItalic.otf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/fonts/asap/Asap-BoldItalic.ttf" afterPath="$PROJECT_DIR$/v1/jquerylove/fonts/asap/Asap-BoldItalic.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/fonts/asap/Asap-Italic.otf" afterPath="$PROJECT_DIR$/v1/jquerylove/fonts/asap/Asap-Italic.otf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/fonts/asap/Asap-Italic.ttf" afterPath="$PROJECT_DIR$/v1/jquerylove/fonts/asap/Asap-Italic.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/fonts/asap/Asap-Regular.otf" afterPath="$PROJECT_DIR$/v1/jquerylove/fonts/asap/Asap-Regular.otf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/fonts/asap/Asap-Regular.ttf" afterPath="$PROJECT_DIR$/v1/jquerylove/fonts/asap/Asap-Regular.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/fonts/asap/OFL.txt" afterPath="$PROJECT_DIR$/v1/jquerylove/fonts/asap/OFL.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/fonts/asap/OpenSans-Bold-webfont.ttf" afterPath="$PROJECT_DIR$/v1/jquerylove/fonts/opensans/OpenSans-Bold-webfont.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/fonts/asap/opensans-light-webfont.ttf" afterPath="$PROJECT_DIR$/v1/jquerylove/fonts/opensans/opensans-light-webfont.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/fonts/asap/stylesheet.css" afterPath="$PROJECT_DIR$/v1/jquerylove/fonts/asap/stylesheet.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/fonts/index.htm" afterPath="$PROJECT_DIR$/v1/jquerylove/fonts/opensans/index.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/fonts/ionicons.eot" afterPath="$PROJECT_DIR$/v1/jquerylove/fonts/ionicons.eot" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/fonts/ionicons.ttf" afterPath="$PROJECT_DIR$/v1/jquerylove/fonts/ionicons.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/fonts/ionicons.woff" afterPath="$PROJECT_DIR$/v1/jquerylove/fonts/ionicons.woff" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/fonts/opensans/OpenSans-Bold-webfont.eot" afterPath="$PROJECT_DIR$/v1/jquerylove/fonts/opensans/OpenSans-Bold-webfont.eot" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/fonts/opensans/OpenSans-Bold-webfont.svg" afterPath="$PROJECT_DIR$/v1/jquerylove/fonts/opensans/OpenSans-Bold-webfont.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/fonts/opensans/OpenSans-Bold-webfont.ttf" afterPath="$PROJECT_DIR$/v1/jquerylove/fonts/asap/OpenSans-Bold-webfont.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/fonts/opensans/OpenSans-Bold-webfont.woff" afterPath="$PROJECT_DIR$/v1/jquerylove/fonts/opensans/OpenSans-Bold-webfont.woff" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/fonts/opensans/OpenSans-ExtraBold-demo.html" afterPath="$PROJECT_DIR$/v1/jquerylove/fonts/opensans/OpenSans-ExtraBold-demo.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/fonts/opensans/OpenSans-ExtraBold-webfont.eot" afterPath="$PROJECT_DIR$/v1/jquerylove/fonts/opensans/OpenSans-ExtraBold-webfont.eot" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/fonts/opensans/OpenSans-ExtraBold-webfont.svg" afterPath="$PROJECT_DIR$/v1/jquerylove/fonts/opensans/OpenSans-ExtraBold-webfont.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/fonts/opensans/OpenSans-ExtraBold-webfont.ttf" afterPath="$PROJECT_DIR$/v1/jquerylove/fonts/opensans/OpenSans-ExtraBold-webfont.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/fonts/opensans/OpenSans-ExtraBold-webfont.woff" afterPath="$PROJECT_DIR$/v1/jquerylove/fonts/opensans/OpenSans-ExtraBold-webfont.woff" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/fonts/opensans/index.htm" afterPath="$PROJECT_DIR$/v1/jquerylove/fonts/index.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/fonts/opensans/opensans-light-webfont.eot" afterPath="$PROJECT_DIR$/v1/jquerylove/fonts/opensans/opensans-light-webfont.eot" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/fonts/opensans/opensans-light-webfont.svg" afterPath="$PROJECT_DIR$/v1/jquerylove/fonts/opensans/opensans-light-webfont.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/fonts/opensans/opensans-light-webfont.ttf" afterPath="$PROJECT_DIR$/v1/jquerylove/fonts/asap/opensans-light-webfont.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/fonts/opensans/opensans-light-webfont.woff" afterPath="$PROJECT_DIR$/v1/jquerylove/fonts/opensans/opensans-light-webfont.woff" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/fonts/opensans/opensans-regular-demo.html" afterPath="$PROJECT_DIR$/v1/jquerylove/fonts/opensans/opensans-regular-demo.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/fonts/opensans/opensans-regular-webfont.eot" afterPath="$PROJECT_DIR$/v1/jquerylove/fonts/opensans/opensans-regular-webfont.eot" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/fonts/opensans/opensans-regular-webfont.svg" afterPath="$PROJECT_DIR$/v1/jquerylove/fonts/opensans/opensans-regular-webfont.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/fonts/opensans/opensans-regular-webfont.ttf" afterPath="$PROJECT_DIR$/v1/jquerylove/fonts/opensans/opensans-regular-webfont.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/fonts/opensans/opensans-regular-webfont.woff" afterPath="$PROJECT_DIR$/v1/jquerylove/fonts/opensans/opensans-regular-webfont.woff" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/fonts/opensans/stylesheet (2).css" afterPath="$PROJECT_DIR$/v1/jquerylove/fonts/opensans/stylesheet (2).css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/fonts/opensans/stylesheet.css" afterPath="$PROJECT_DIR$/v1/jquerylove/fonts/opensans/stylesheet.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/img/bg-default.jpg" afterPath="$PROJECT_DIR$/v1/jquerylove/img/bg-default.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/img/bg-slide1.jpg" afterPath="$PROJECT_DIR$/v1/jquerylove/img/bg-slide1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/img/bg-slide2.jpg" afterPath="$PROJECT_DIR$/v1/jquerylove/img/bg-slide2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/img/bg-slide3.jpg" afterPath="$PROJECT_DIR$/v1/jquerylove/img/bg-slide3.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/img/bg-slide4.jpg" afterPath="$PROJECT_DIR$/v1/jquerylove/img/bg-slide4.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/img/gradient.png" afterPath="$PROJECT_DIR$/v1/jquerylove/img/gradient.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/img/index.html" afterPath="$PROJECT_DIR$/v1/jquerylove/js/vendor/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/img/logo_large.png" afterPath="$PROJECT_DIR$/v1/jquerylove/img/logo_large.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/img/logo_only.png" afterPath="$PROJECT_DIR$/v1/jquerylove/img/logo_only.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/img/logodark_large.png" afterPath="$PROJECT_DIR$/v1/jquerylove/img/logodark_large.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/img/logodark_only.png" afterPath="$PROJECT_DIR$/v1/jquerylove/img/logodark_only.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/img/pict/cover_bg.jpg" afterPath="$PROJECT_DIR$/v1/jquerylove/img/pict/cover_bg.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/img/pict/index.html" afterPath="$PROJECT_DIR$/v1/jquerylove/js/slick/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/index.html" afterPath="$PROJECT_DIR$/v1/jquerylove/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/js/form_script.js" afterPath="$PROJECT_DIR$/v1/jquerylove/js/form_script.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/js/foundation.min.js" afterPath="$PROJECT_DIR$/v1/jquerylove/js/foundation.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/js/foundation/foundation.abide.js" afterPath="$PROJECT_DIR$/v1/jquerylove/js/foundation/foundation.abide.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/js/foundation/foundation.accordion.js" afterPath="$PROJECT_DIR$/v1/jquerylove/js/foundation/foundation.accordion.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/js/foundation/foundation.alert.js" afterPath="$PROJECT_DIR$/v1/jquerylove/js/foundation/foundation.alert.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/js/foundation/foundation.clearing.js" afterPath="$PROJECT_DIR$/v1/jquerylove/js/foundation/foundation.clearing.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/js/foundation/foundation.dropdown.js" afterPath="$PROJECT_DIR$/v1/jquerylove/js/foundation/foundation.dropdown.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/js/foundation/foundation.equalizer.js" afterPath="$PROJECT_DIR$/v1/jquerylove/js/foundation/foundation.equalizer.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/js/foundation/foundation.interchange.js" afterPath="$PROJECT_DIR$/v1/jquerylove/js/foundation/foundation.interchange.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/js/foundation/foundation.joyride.js" afterPath="$PROJECT_DIR$/v1/jquerylove/js/foundation/foundation.joyride.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/js/foundation/foundation.js" afterPath="$PROJECT_DIR$/v1/jquerylove/js/foundation/foundation.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/js/foundation/foundation.magellan.js" afterPath="$PROJECT_DIR$/v1/jquerylove/js/foundation/foundation.magellan.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/js/foundation/foundation.offcanvas.js" afterPath="$PROJECT_DIR$/v1/jquerylove/js/foundation/foundation.offcanvas.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/js/foundation/foundation.orbit.js" afterPath="$PROJECT_DIR$/v1/jquerylove/js/foundation/foundation.orbit.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/js/foundation/foundation.reveal.js" afterPath="$PROJECT_DIR$/v1/jquerylove/js/foundation/foundation.reveal.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/js/foundation/foundation.slider.js" afterPath="$PROJECT_DIR$/v1/jquerylove/js/foundation/foundation.slider.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/js/foundation/foundation.tab.js" afterPath="$PROJECT_DIR$/v1/jquerylove/js/foundation/foundation.tab.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/js/foundation/foundation.tooltip.js" afterPath="$PROJECT_DIR$/v1/jquerylove/js/foundation/foundation.tooltip.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/js/foundation/foundation.topbar.js" afterPath="$PROJECT_DIR$/v1/jquerylove/js/foundation/foundation.topbar.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/js/foundation/index.html" afterPath="$PROJECT_DIR$/v1/jquerylove/js/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/js/imagelightbox.min.js" afterPath="$PROJECT_DIR$/v1/jquerylove/js/imagelightbox.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/js/index.html" afterPath="$PROJECT_DIR$/v1/jquerylove/js/foundation/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/js/jquery.downCount.js" afterPath="$PROJECT_DIR$/v1/jquerylove/js/jquery.downCount.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/js/jquery.jplayer.js" afterPath="$PROJECT_DIR$/v1/jquerylove/js/jquery.jplayer.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/js/jquery.jplayer.min.js" afterPath="$PROJECT_DIR$/v1/jquerylove/js/jquery.jplayer.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/js/jquery.jplayer.swf" afterPath="$PROJECT_DIR$/v1/jquerylove/js/jquery.jplayer.swf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/js/jquery.lifestream.min.js" afterPath="$PROJECT_DIR$/v1/jquerylove/js/jquery.lifestream.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/js/jquery.maximage.js" afterPath="$PROJECT_DIR$/v1/jquerylove/js/jquery.maximage.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/js/jquery.min.js" afterPath="$PROJECT_DIR$/v1/jquerylove/js/jquery.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/js/main.js" afterPath="$PROJECT_DIR$/v1/jquerylove/js/main.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/js/maplace-0.1.3.min.js" afterPath="$PROJECT_DIR$/v1/jquerylove/js/maplace-0.1.3.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/js/okvideo.min.js" afterPath="$PROJECT_DIR$/v1/jquerylove/js/okvideo.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/js/owl-carousel/AjaxLoader.gif" afterPath="$PROJECT_DIR$/v1/jquerylove/js/owl-carousel/AjaxLoader.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/js/owl-carousel/grabbing.png" afterPath="$PROJECT_DIR$/v1/jquerylove/js/owl-carousel/grabbing.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/js/owl-carousel/owl.carousel.css" afterPath="$PROJECT_DIR$/v1/jquerylove/js/owl-carousel/owl.carousel.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/js/owl-carousel/owl.carousel.js" afterPath="$PROJECT_DIR$/v1/jquerylove/js/owl-carousel/owl.carousel.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/js/owl-carousel/owl.carousel.min.js" afterPath="$PROJECT_DIR$/v1/jquerylove/js/owl-carousel/owl.carousel.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/js/owl-carousel/owl.theme.css" afterPath="$PROJECT_DIR$/v1/jquerylove/js/owl-carousel/owl.theme.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/js/owl-carousel/owl.transitions.css" afterPath="$PROJECT_DIR$/v1/jquerylove/js/owl-carousel/owl.transitions.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/js/slick/ajax-loader.gif" afterPath="$PROJECT_DIR$/v1/jquerylove/js/slick/ajax-loader.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/js/slick/config.rb" afterPath="$PROJECT_DIR$/v1/jquerylove/js/slick/config.rb" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/js/slick/fonts/slick.eot" afterPath="$PROJECT_DIR$/v1/jquerylove/js/slick/fonts/slick.eot" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/js/slick/fonts/slick.svg" afterPath="$PROJECT_DIR$/v1/jquerylove/js/slick/fonts/slick.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/js/slick/fonts/slick.ttf" afterPath="$PROJECT_DIR$/v1/jquerylove/js/slick/fonts/slick.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/js/slick/fonts/slick.woff" afterPath="$PROJECT_DIR$/v1/jquerylove/js/slick/fonts/slick.woff" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/js/slick/index.html" afterPath="$PROJECT_DIR$/v1/jquerylove/img/pict/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/js/slick/slick.css" afterPath="$PROJECT_DIR$/v1/jquerylove/js/slick/slick.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/js/slick/slick.js" afterPath="$PROJECT_DIR$/v1/jquerylove/js/slick/slick.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/js/slick/slick.min.js" afterPath="$PROJECT_DIR$/v1/jquerylove/js/slick/slick.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/js/slick/slick.scss" afterPath="$PROJECT_DIR$/v1/jquerylove/js/slick/slick.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/js/vegas/overlays/01.png" afterPath="$PROJECT_DIR$/v1/jquerylove/js/vegas/overlays/01.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/js/vegas/overlays/02.png" afterPath="$PROJECT_DIR$/v1/jquerylove/js/vegas/overlays/02.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/js/vegas/overlays/03.png" afterPath="$PROJECT_DIR$/v1/jquerylove/js/vegas/overlays/03.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/js/vegas/overlays/04.png" afterPath="$PROJECT_DIR$/v1/jquerylove/js/vegas/overlays/04.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/js/vegas/overlays/05.png" afterPath="$PROJECT_DIR$/v1/jquerylove/js/vegas/overlays/05.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/js/vegas/overlays/06.png" afterPath="$PROJECT_DIR$/v1/jquerylove/js/vegas/overlays/06.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/js/vegas/overlays/07.png" afterPath="$PROJECT_DIR$/v1/jquerylove/js/vegas/overlays/07.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/js/vegas/overlays/08.png" afterPath="$PROJECT_DIR$/v1/jquerylove/js/vegas/overlays/08.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/js/vegas/overlays/09.png" afterPath="$PROJECT_DIR$/v1/jquerylove/js/vegas/overlays/09.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/js/vegas/vegas.css" afterPath="$PROJECT_DIR$/v1/jquerylove/js/vegas/vegas.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/js/vegas/vegas.js" afterPath="$PROJECT_DIR$/v1/jquerylove/js/vegas/vegas.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/js/vegas/vegas.min.css" afterPath="$PROJECT_DIR$/v1/jquerylove/js/vegas/vegas.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/js/vegas/vegas.min.js" afterPath="$PROJECT_DIR$/v1/jquerylove/js/vegas/vegas.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/js/vegas/vegas.min.js.map" afterPath="$PROJECT_DIR$/v1/jquerylove/js/vegas/vegas.min.js.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/js/vendor/all.js" afterPath="$PROJECT_DIR$/v1/jquerylove/js/vendor/all.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/js/vendor/fastclick.js" afterPath="$PROJECT_DIR$/v1/jquerylove/js/vendor/fastclick.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/js/vendor/index.html" afterPath="$PROJECT_DIR$/v1/jquerylove/img/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/js/vendor/jquery-1.11.0.min.js" afterPath="$PROJECT_DIR$/v1/jquerylove/js/vendor/jquery-1.11.0.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/js/vendor/jquery-1.11.2.min.js" afterPath="$PROJECT_DIR$/v1/jquerylove/js/vendor/jquery-1.11.2.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/js/vendor/jquery-migrate-1.2.1.min.js" afterPath="$PROJECT_DIR$/v1/jquerylove/js/vendor/jquery-migrate-1.2.1.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/js/vendor/jquery.fullPage.css" afterPath="$PROJECT_DIR$/v1/jquerylove/js/vendor/jquery.fullPage.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/js/vendor/jquery.fullPage.js" afterPath="$PROJECT_DIR$/v1/jquerylove/js/vendor/jquery.fullPage.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/js/vendor/jquery.fullPage.min.js" afterPath="$PROJECT_DIR$/v1/jquerylove/js/vendor/jquery.fullPage.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/js/vendor/jquery.knob.min.js" afterPath="$PROJECT_DIR$/v1/jquerylove/js/vendor/jquery.knob.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/js/vendor/jquery.slimscroll.min.js" afterPath="$PROJECT_DIR$/v1/jquerylove/js/vendor/jquery.slimscroll.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/js/vendor/modernizr-2.7.1.min.js" afterPath="$PROJECT_DIR$/v1/jquerylove/js/vendor/modernizr-2.7.1.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/js/vendor/modernizr.js" afterPath="$PROJECT_DIR$/v1/jquerylove/js/vendor/modernizr.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jquerylove/music.mp3" afterPath="$PROJECT_DIR$/v1/jquerylove/music.mp3" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lazyLoadImage/diy.html" afterPath="$PROJECT_DIR$/v1/lazyLoadImage/diy.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lazyLoadImage/images/1.jpg" afterPath="$PROJECT_DIR$/v1/lazyLoadImage/images/1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lazyLoadImage/images/10.jpg" afterPath="$PROJECT_DIR$/v1/lazyLoadImage/images/10.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lazyLoadImage/images/11.jpg" afterPath="$PROJECT_DIR$/v1/lazyLoadImage/images/11.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lazyLoadImage/images/12.jpg" afterPath="$PROJECT_DIR$/v1/lazyLoadImage/images/12.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lazyLoadImage/images/13.jpg" afterPath="$PROJECT_DIR$/v1/lazyLoadImage/images/13.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lazyLoadImage/images/14.jpg" afterPath="$PROJECT_DIR$/v1/lazyLoadImage/images/14.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lazyLoadImage/images/15.jpg" afterPath="$PROJECT_DIR$/v1/lazyLoadImage/images/15.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lazyLoadImage/images/16.jpg" afterPath="$PROJECT_DIR$/v1/lazyLoadImage/images/16.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lazyLoadImage/images/17.jpg" afterPath="$PROJECT_DIR$/v1/lazyLoadImage/images/17.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lazyLoadImage/images/18.jpg" afterPath="$PROJECT_DIR$/v1/lazyLoadImage/images/18.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lazyLoadImage/images/19.jpg" afterPath="$PROJECT_DIR$/v1/lazyLoadImage/images/19.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lazyLoadImage/images/2.jpg" afterPath="$PROJECT_DIR$/v1/lazyLoadImage/images/2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lazyLoadImage/images/20.jpg" afterPath="$PROJECT_DIR$/v1/lazyLoadImage/images/20.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lazyLoadImage/images/3.jpg" afterPath="$PROJECT_DIR$/v1/lazyLoadImage/images/3.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lazyLoadImage/images/4.jpg" afterPath="$PROJECT_DIR$/v1/lazyLoadImage/images/4.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lazyLoadImage/images/5.jpg" afterPath="$PROJECT_DIR$/v1/lazyLoadImage/images/5.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lazyLoadImage/images/6.jpg" afterPath="$PROJECT_DIR$/v1/lazyLoadImage/images/6.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lazyLoadImage/images/7.jpg" afterPath="$PROJECT_DIR$/v1/lazyLoadImage/images/7.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lazyLoadImage/images/8.jpg" afterPath="$PROJECT_DIR$/v1/lazyLoadImage/images/8.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lazyLoadImage/images/9.jpg" afterPath="$PROJECT_DIR$/v1/lazyLoadImage/images/9.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lazyLoadImage/images/default.png" afterPath="$PROJECT_DIR$/v1/lazyLoadImage/images/default.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lazyLoadImage/images/error.png" afterPath="$PROJECT_DIR$/v1/lazyLoadImage/images/error.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lazyLoadImage/index.html" afterPath="$PROJECT_DIR$/v1/lazyLoadImage/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lazyLoadImage/lazy-load-img.min.js" afterPath="$PROJECT_DIR$/v1/lazyLoadImage/lazy-load-img.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lazyLoadImage/style/common.css" afterPath="$PROJECT_DIR$/v1/lazyLoadImage/style/common.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/css/animate.min.css" afterPath="$PROJECT_DIR$/v1/profile/css/animate.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/v1/profile/css/bootstrap.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/css/colors/DarkBlue.css" afterPath="$PROJECT_DIR$/v1/profile/css/colors/DarkBlue.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/css/colors/blue.css" afterPath="$PROJECT_DIR$/v1/profile/css/colors/blue.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/css/colors/green.css" afterPath="$PROJECT_DIR$/v1/profile/css/colors/green.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/css/colors/lightseagreen.css" afterPath="$PROJECT_DIR$/v1/profile/css/colors/lightseagreen.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/css/colors/orange.css" afterPath="$PROJECT_DIR$/v1/profile/css/colors/orange.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/css/colors/red.css" afterPath="$PROJECT_DIR$/v1/profile/css/colors/red.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/css/colors/rose.css" afterPath="$PROJECT_DIR$/v1/profile/css/colors/rose.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/css/colors/yellow.css" afterPath="$PROJECT_DIR$/v1/profile/css/colors/yellow.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/css/font-awesome.min.css" afterPath="$PROJECT_DIR$/v1/profile/css/font-awesome.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/css/jquery.mCustomScrollbar.css" afterPath="$PROJECT_DIR$/v1/profile/css/jquery.mCustomScrollbar.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/css/main.css" afterPath="$PROJECT_DIR$/v1/profile/css/main.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/css/prettyPhoto.css" afterPath="$PROJECT_DIR$/v1/profile/css/prettyPhoto.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/document/Tetris.js" afterPath="$PROJECT_DIR$/v1/profile/document/Tetris.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/document/img/btn.png" afterPath="$PROJECT_DIR$/v1/profile/document/img/btn.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/document/img/tan_03.png" afterPath="$PROJECT_DIR$/v1/profile/document/img/tan_03.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/document/img/tetrisbg.gif" afterPath="$PROJECT_DIR$/v1/profile/document/img/tetrisbg.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/document/index.html" afterPath="$PROJECT_DIR$/v1/profile/document/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/document/mouse.swf" afterPath="$PROJECT_DIR$/v1/profile/document/mouse.swf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/document/music/下落.wav" afterPath="$PROJECT_DIR$/v1/profile/document/music/下落.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/document/music/按键音.wav" afterPath="$PROJECT_DIR$/v1/profile/document/music/按键音.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/document/music/游戏失败.mp3" afterPath="$PROJECT_DIR$/v1/profile/document/music/游戏失败.mp3" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/document/music/点击.wav" afterPath="$PROJECT_DIR$/v1/profile/document/music/点击.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/document/music/背景.wav" afterPath="$PROJECT_DIR$/v1/profile/document/music/背景.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/fonts/fontawesome-webfontba72.eot" afterPath="$PROJECT_DIR$/v1/profile/fonts/fontawesome-webfontba72.eot" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/fonts/fontawesome-webfontba72.svg" afterPath="$PROJECT_DIR$/v1/profile/fonts/fontawesome-webfontba72.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/fonts/fontawesome-webfontba72.ttf" afterPath="$PROJECT_DIR$/v1/profile/fonts/fontawesome-webfontba72.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/fonts/fontawesome-webfontba72.woff" afterPath="$PROJECT_DIR$/v1/profile/fonts/fontawesome-webfontba72.woff" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/fonts/fontawesome-webfontd41d.eot" afterPath="$PROJECT_DIR$/v1/profile/fonts/fontawesome-webfontd41d.eot" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/fonts/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/v1/profile/fonts/glyphicons-halflings-regular.eot" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/v1/profile/fonts/glyphicons-halflings-regular.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/fonts/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/v1/profile/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/fonts/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/v1/profile/fonts/glyphicons-halflings-regular.woff" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/fonts/glyphicons-halflings-regulard41d.eot" afterPath="$PROJECT_DIR$/v1/profile/fonts/glyphicons-halflings-regulard41d.eot" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/images/arrows-h3/arrow-DarkBlue-h3.png" afterPath="$PROJECT_DIR$/v1/profile/images/arrows-h3/arrow-DarkBlue-h3.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/images/bg/bg1.png" afterPath="$PROJECT_DIR$/v1/profile/images/bg/bg1.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/images/bg/bg2.png" afterPath="$PROJECT_DIR$/v1/profile/images/bg/bg2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/images/bg/bg3.png" afterPath="$PROJECT_DIR$/v1/profile/images/bg/bg3.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/images/bg/bg4.png" afterPath="$PROJECT_DIR$/v1/profile/images/bg/bg4.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/images/bg/bg5.png" afterPath="$PROJECT_DIR$/v1/profile/images/bg/bg5.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/images/blog/blog-1.jpg" afterPath="$PROJECT_DIR$/v1/profile/images/blog/blog-1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/images/blog/blog-2.jpg" afterPath="$PROJECT_DIR$/v1/profile/images/blog/blog-2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/images/blog/blog-3.jpg" afterPath="$PROJECT_DIR$/v1/profile/images/blog/blog-3.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/images/blog/blog-4.jpg" afterPath="$PROJECT_DIR$/v1/profile/images/blog/blog-4.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/images/check_radio_sheet.png" afterPath="$PROJECT_DIR$/v1/profile/images/check_radio_sheet.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/images/images-fullscreen/1.jpg" afterPath="$PROJECT_DIR$/v1/profile/images/images-fullscreen/1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/images/images-fullscreen/2.jpg" afterPath="$PROJECT_DIR$/v1/profile/images/images-fullscreen/2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/images/images-fullscreen/3.jpg" afterPath="$PROJECT_DIR$/v1/profile/images/images-fullscreen/3.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/images/images-fullscreen/4.jpg" afterPath="$PROJECT_DIR$/v1/profile/images/images-fullscreen/4.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/images/images-fullscreen/5.jpg" afterPath="$PROJECT_DIR$/v1/profile/images/images-fullscreen/5.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/images/images-fullscreen/6.jpg" afterPath="$PROJECT_DIR$/v1/profile/images/images-fullscreen/6.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/images/images-fullscreen/pattern.png" afterPath="$PROJECT_DIR$/v1/profile/images/images-fullscreen/pattern.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/images/img/down.png" afterPath="$PROJECT_DIR$/v1/profile/images/img/down.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/images/img/downleft.png" afterPath="$PROJECT_DIR$/v1/profile/images/img/downleft.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/images/img/downright.png" afterPath="$PROJECT_DIR$/v1/profile/images/img/downright.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/images/img/front.png" afterPath="$PROJECT_DIR$/v1/profile/images/img/front.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/images/img/left.png" afterPath="$PROJECT_DIR$/v1/profile/images/img/left.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/images/img/right.png" afterPath="$PROJECT_DIR$/v1/profile/images/img/right.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/images/img/up.png" afterPath="$PROJECT_DIR$/v1/profile/images/img/up.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/images/img/upleft.png" afterPath="$PROJECT_DIR$/v1/profile/images/img/upleft.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/images/img/upright.png" afterPath="$PROJECT_DIR$/v1/profile/images/img/upright.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/images/logo.png" afterPath="$PROJECT_DIR$/v1/profile/images/logo.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/images/music/pause.png" afterPath="$PROJECT_DIR$/v1/profile/images/music/pause.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/images/music/pause1.png" afterPath="$PROJECT_DIR$/v1/profile/images/music/pause1.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/images/music/play.png" afterPath="$PROJECT_DIR$/v1/profile/images/music/play.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/images/music/play1.png" afterPath="$PROJECT_DIR$/v1/profile/images/music/play1.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/images/portfolio/1.jpg" afterPath="$PROJECT_DIR$/v1/profile/images/portfolio/1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/images/portfolio/10.jpg" afterPath="$PROJECT_DIR$/v1/profile/images/portfolio/10.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/images/portfolio/11.jpg" afterPath="$PROJECT_DIR$/v1/profile/images/portfolio/11.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/images/portfolio/12.jpg" afterPath="$PROJECT_DIR$/v1/profile/images/portfolio/12.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/images/portfolio/2.jpg" afterPath="$PROJECT_DIR$/v1/profile/images/portfolio/2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/images/portfolio/3.jpg" afterPath="$PROJECT_DIR$/v1/profile/images/portfolio/3.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/images/portfolio/4.jpg" afterPath="$PROJECT_DIR$/v1/profile/images/portfolio/4.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/images/portfolio/5.jpg" afterPath="$PROJECT_DIR$/v1/profile/images/portfolio/5.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/images/portfolio/6.jpg" afterPath="$PROJECT_DIR$/v1/profile/images/portfolio/6.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/images/portfolio/7.jpg" afterPath="$PROJECT_DIR$/v1/profile/images/portfolio/7.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/images/portfolio/8.jpg" afterPath="$PROJECT_DIR$/v1/profile/images/portfolio/8.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/images/portfolio/9.jpg" afterPath="$PROJECT_DIR$/v1/profile/images/portfolio/9.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/images/prettyPhoto/dark_rounded/btnNext.png" afterPath="$PROJECT_DIR$/v1/profile/images/prettyPhoto/light_square/btnNext.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/images/prettyPhoto/dark_rounded/btnPrevious.png" afterPath="$PROJECT_DIR$/v1/profile/images/prettyPhoto/light_square/btnPrevious.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/images/prettyPhoto/dark_rounded/contentPattern.png" afterPath="$PROJECT_DIR$/v1/profile/images/prettyPhoto/dark_rounded/contentPattern.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/images/prettyPhoto/dark_rounded/loader.gif" afterPath="$PROJECT_DIR$/v1/profile/images/prettyPhoto/dark_square/loader.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/images/prettyPhoto/dark_rounded/sprite.png" afterPath="$PROJECT_DIR$/v1/profile/images/prettyPhoto/dark_rounded/sprite.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/images/prettyPhoto/dark_square/btnNext.png" afterPath="$PROJECT_DIR$/v1/profile/images/prettyPhoto/light_rounded/btnNext.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/images/prettyPhoto/dark_square/btnPrevious.png" afterPath="$PROJECT_DIR$/v1/profile/images/prettyPhoto/light_rounded/btnPrevious.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/images/prettyPhoto/dark_square/loader.gif" afterPath="$PROJECT_DIR$/v1/profile/images/prettyPhoto/dark_rounded/loader.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/images/prettyPhoto/dark_square/sprite.png" afterPath="$PROJECT_DIR$/v1/profile/images/prettyPhoto/light_square/sprite.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/images/prettyPhoto/default/default_thumb.png" afterPath="$PROJECT_DIR$/v1/profile/images/prettyPhoto/default/default_thumb.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/images/prettyPhoto/default/loader.gif" afterPath="$PROJECT_DIR$/v1/profile/images/prettyPhoto/default/loader.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/images/prettyPhoto/default/sprite.png" afterPath="$PROJECT_DIR$/v1/profile/images/prettyPhoto/default/sprite.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/images/prettyPhoto/default/sprite_next.png" afterPath="$PROJECT_DIR$/v1/profile/images/prettyPhoto/default/sprite_next.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/images/prettyPhoto/default/sprite_prev.png" afterPath="$PROJECT_DIR$/v1/profile/images/prettyPhoto/default/sprite_prev.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/images/prettyPhoto/default/sprite_x.png" afterPath="$PROJECT_DIR$/v1/profile/images/prettyPhoto/default/sprite_x.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/images/prettyPhoto/default/sprite_y.png" afterPath="$PROJECT_DIR$/v1/profile/images/prettyPhoto/default/sprite_y.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/images/prettyPhoto/facebook/btnNext.png" afterPath="$PROJECT_DIR$/v1/profile/images/prettyPhoto/facebook/btnNext.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/images/prettyPhoto/facebook/btnPrevious.png" afterPath="$PROJECT_DIR$/v1/profile/images/prettyPhoto/facebook/btnPrevious.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/images/prettyPhoto/facebook/contentPatternBottom.png" afterPath="$PROJECT_DIR$/v1/profile/images/prettyPhoto/facebook/contentPatternBottom.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/images/prettyPhoto/facebook/contentPatternLeft.png" afterPath="$PROJECT_DIR$/v1/profile/images/prettyPhoto/facebook/contentPatternLeft.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/images/prettyPhoto/facebook/contentPatternRight.png" afterPath="$PROJECT_DIR$/v1/profile/images/prettyPhoto/facebook/contentPatternRight.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/images/prettyPhoto/facebook/contentPatternTop.png" afterPath="$PROJECT_DIR$/v1/profile/images/prettyPhoto/facebook/contentPatternTop.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/images/prettyPhoto/facebook/default_thumbnail.gif" afterPath="$PROJECT_DIR$/v1/profile/images/prettyPhoto/facebook/default_thumbnail.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/images/prettyPhoto/facebook/loader.gif" afterPath="$PROJECT_DIR$/v1/profile/images/prettyPhoto/light_rounded/loader.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/images/prettyPhoto/facebook/sprite.png" afterPath="$PROJECT_DIR$/v1/profile/images/prettyPhoto/facebook/sprite.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/images/prettyPhoto/light_rounded/btnNext.png" afterPath="$PROJECT_DIR$/v1/profile/images/prettyPhoto/dark_square/btnNext.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/images/prettyPhoto/light_rounded/btnPrevious.png" afterPath="$PROJECT_DIR$/v1/profile/images/prettyPhoto/dark_square/btnPrevious.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/images/prettyPhoto/light_rounded/loader.gif" afterPath="$PROJECT_DIR$/v1/profile/images/prettyPhoto/facebook/loader.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/images/prettyPhoto/light_rounded/sprite.png" afterPath="$PROJECT_DIR$/v1/profile/images/prettyPhoto/light_rounded/sprite.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/images/prettyPhoto/light_square/btnNext.png" afterPath="$PROJECT_DIR$/v1/profile/images/prettyPhoto/dark_rounded/btnNext.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/images/prettyPhoto/light_square/btnPrevious.png" afterPath="$PROJECT_DIR$/v1/profile/images/prettyPhoto/dark_rounded/btnPrevious.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/images/prettyPhoto/light_square/sprite.png" afterPath="$PROJECT_DIR$/v1/profile/images/prettyPhoto/dark_square/sprite.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/images/qq.gif" afterPath="$PROJECT_DIR$/v1/profile/images/qq.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/images/qq.png" afterPath="$PROJECT_DIR$/v1/profile/images/qq.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/images/qqcontact.png" afterPath="$PROJECT_DIR$/v1/profile/images/qqcontact.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/images/spinner.gif" afterPath="$PROJECT_DIR$/v1/profile/images/spinner.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/images/tel.png" afterPath="$PROJECT_DIR$/v1/profile/images/tel.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/images/weixin.png" afterPath="$PROJECT_DIR$/v1/profile/images/weixin.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/index.html" afterPath="$PROJECT_DIR$/v1/profile/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/js/HeadImages.js" afterPath="$PROJECT_DIR$/v1/profile/js/HeadImages.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/js/base-loading.js" afterPath="$PROJECT_DIR$/v1/profile/js/base-loading.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/v1/profile/js/bootstrap.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/js/easyResponsiveTabs.min.js" afterPath="$PROJECT_DIR$/v1/profile/js/easyResponsiveTabs.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/js/gmaps.min.js" afterPath="$PROJECT_DIR$/v1/profile/js/gmaps.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/js/jquery-1.10.2.min.js" afterPath="$PROJECT_DIR$/v1/profile/js/jquery-1.10.2.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/js/jquery.cookie.js" afterPath="$PROJECT_DIR$/v1/profile/js/jquery.cookie.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/js/jquery.cycle2.min.js" afterPath="$PROJECT_DIR$/v1/profile/js/jquery.cycle2.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/js/jquery.mCustomScrollbar.concat.min.js" afterPath="$PROJECT_DIR$/v1/profile/js/jquery.mCustomScrollbar.concat.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/js/jquery.min.js" afterPath="$PROJECT_DIR$/v1/profile/js/jquery.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/js/jquery.mixitup.min.js" afterPath="$PROJECT_DIR$/v1/profile/js/jquery.mixitup.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/js/jquery.prettyPhoto.js" afterPath="$PROJECT_DIR$/v1/profile/js/jquery.prettyPhoto.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/js/jquery.vitrine.js" afterPath="$PROJECT_DIR$/v1/profile/js/jquery.vitrine.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/js/layer/extend/layer.ext.js" afterPath="$PROJECT_DIR$/v1/profile/js/layer/extend/layer.ext.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/js/layer/layer.js" afterPath="$PROJECT_DIR$/v1/profile/js/layer/layer.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/js/layer/skin/default/icon-ext.png" afterPath="$PROJECT_DIR$/v1/profile/js/layer/skin/default/icon-ext.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/js/layer/skin/default/icon.png" afterPath="$PROJECT_DIR$/v1/profile/js/layer/skin/default/icon.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/js/layer/skin/default/loading-0.gif" afterPath="$PROJECT_DIR$/v1/profile/js/layer/skin/default/loading-0.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/js/layer/skin/default/loading-1.gif" afterPath="$PROJECT_DIR$/v1/profile/js/layer/skin/default/loading-1.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/js/layer/skin/default/loading-2.gif" afterPath="$PROJECT_DIR$/v1/profile/js/layer/skin/default/loading-2.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/js/layer/skin/layer.css" afterPath="$PROJECT_DIR$/v1/profile/js/layer/skin/layer.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/js/layer/skin/layer.ext.css" afterPath="$PROJECT_DIR$/v1/profile/js/layer/skin/layer.ext.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/js/main.js" afterPath="$PROJECT_DIR$/v1/profile/js/main.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/js/pagewalkthrough/css/images/arrow-bottom.png" afterPath="$PROJECT_DIR$/v1/profile/js/pagewalkthrough/css/images/arrow-bottom.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/js/pagewalkthrough/css/images/arrow-left.png" afterPath="$PROJECT_DIR$/v1/profile/js/pagewalkthrough/css/images/arrow-left.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/js/pagewalkthrough/css/images/arrow-right.png" afterPath="$PROJECT_DIR$/v1/profile/js/pagewalkthrough/css/images/arrow-right.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/js/pagewalkthrough/css/images/arrow-top.png" afterPath="$PROJECT_DIR$/v1/profile/js/pagewalkthrough/css/images/arrow-top.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/js/pagewalkthrough/css/images/close.png" afterPath="$PROJECT_DIR$/v1/profile/js/pagewalkthrough/css/images/close.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/js/pagewalkthrough/css/images/scratch-border.png" afterPath="$PROJECT_DIR$/v1/profile/js/pagewalkthrough/css/images/scratch-border.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/js/pagewalkthrough/css/jquery.pagewalkthrough.css" afterPath="$PROJECT_DIR$/v1/profile/js/pagewalkthrough/css/jquery.pagewalkthrough.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/js/pagewalkthrough/index.html" afterPath="$PROJECT_DIR$/v1/profile/js/pagewalkthrough/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/js/pagewalkthrough/jquery.pagewalkthrough.min.js" afterPath="$PROJECT_DIR$/v1/profile/js/pagewalkthrough/jquery.pagewalkthrough.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/music/test.mp3" afterPath="$PROJECT_DIR$/v1/profile/music/test.mp3" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/picture/budan.png" afterPath="$PROJECT_DIR$/v1/profile/picture/budan.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/picture/chongqing.png" afterPath="$PROJECT_DIR$/v1/profile/picture/chongqing.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/picture/guizhou.png" afterPath="$PROJECT_DIR$/v1/profile/picture/guizhou.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/picture/nipoer.png" afterPath="$PROJECT_DIR$/v1/profile/picture/nipoer.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/picture/sichuan.png" afterPath="$PROJECT_DIR$/v1/profile/picture/sichuan.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/picture/xizang.png" afterPath="$PROJECT_DIR$/v1/profile/picture/xizang.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/profile/picture/yunnan.png" afterPath="$PROJECT_DIR$/v1/profile/picture/yunnan.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ydcd/css/style.css" afterPath="$PROJECT_DIR$/v1/ydcd/css/style.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ydcd/index.html" afterPath="$PROJECT_DIR$/v1/ydcd/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ydcd/js/index.js" afterPath="$PROJECT_DIR$/v1/ydcd/js/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ydcd/js/jquery.min.js" afterPath="$PROJECT_DIR$/v1/ydcd/js/jquery.min.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -276,7 +617,7 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="template.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog/_wiki/template.md">
+        <entry file="file://$PROJECT_DIR$/_wiki/template.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="0">
@@ -289,28 +630,28 @@
         </entry>
       </file>
       <file leaf-file-name="octicons-bg.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog/assets/images/octicons-bg.png">
+        <entry file="file://$PROJECT_DIR$/assets/images/octicons-bg.png">
           <provider selected="true" editor-type-id="images">
             <state />
           </provider>
         </entry>
       </file>
       <file leaf-file-name="octocat-spinner-16px.gif" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog/assets/images/octocat-spinner-16px.gif">
+        <entry file="file://$PROJECT_DIR$/assets/images/octocat-spinner-16px.gif">
           <provider selected="true" editor-type-id="images">
             <state />
           </provider>
         </entry>
       </file>
       <file leaf-file-name="octocat-spinner-32-EAF2F5.gif" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog/assets/images/octocat-spinner-32-EAF2F5.gif">
+        <entry file="file://$PROJECT_DIR$/assets/images/octocat-spinner-32-EAF2F5.gif">
           <provider selected="true" editor-type-id="images">
             <state />
           </provider>
         </entry>
       </file>
       <file leaf-file-name="wiki.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog/pages/wiki.md">
+        <entry file="file://$PROJECT_DIR$/pages/wiki.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="247">
@@ -322,12 +663,45 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="open-source.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/blog/pages/open-source.md">
+      <file leaf-file-name="open-source.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/open-source.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="-384">
                 <caret line="8" column="48" lean-forward="true" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CNAME" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CNAME">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="16" lean-forward="false" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="params.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/params.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="281">
+                <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -349,12 +723,12 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/blog/CNAME" />
         <option value="$PROJECT_DIR$/blog/README.md" />
         <option value="$PROJECT_DIR$/blog/pages/about.md" />
         <option value="$PROJECT_DIR$/blog/_data/social.yml" />
         <option value="$PROJECT_DIR$/blog/_config.yml" />
         <option value="$PROJECT_DIR$/blog/_includes/article-footer.html" />
+        <option value="$PROJECT_DIR$/blog/CNAME" />
       </list>
     </option>
   </component>
@@ -406,6 +780,14 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="js-jscs-nodeInterpreter" value="F:\nodejs\node.exe" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\github\rowthan.github.io" />
+      <recent name="G:\github\rowthan.github.io\v1" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -472,12 +854,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1491656518340</updated>
-      <workItem from="1491656520537" duration="1584000" />
+      <workItem from="1491656520537" duration="2055000" />
     </task>
+    <task id="LOCAL-00001" summary="jekyll init">
+      <created>1491658335976</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1491658335976</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1584000" />
+    <option name="totallyTimeSpent" value="2055000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1292" height="768" extended-state="0" />
@@ -486,10 +876,10 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24960127" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5244095" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -504,8 +894,30 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="jekyll init" />
+    <option name="LAST_COMMIT_MESSAGE" value="jekyll init" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -525,26 +937,7 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/CNAME">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="17" lean-forward="false" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="281">
-            <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/pages/categories.md">
+    <entry file="file://$PROJECT_DIR$/pages/categories.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="57">
@@ -555,7 +948,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/pages/about.md">
+    <entry file="file://$PROJECT_DIR$/pages/about.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="171">
@@ -591,7 +984,7 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/assets/js/search.js">
+    <entry file="file://$PROJECT_DIR$/assets/js/search.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-838">
           <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
@@ -599,7 +992,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/assets/js/underscore-min.js">
+    <entry file="file://$PROJECT_DIR$/assets/js/underscore-min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-19">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -607,7 +1000,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/assets/search_data.json">
+    <entry file="file://$PROJECT_DIR$/assets/search_data.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="5" column="30" lean-forward="true" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
@@ -615,7 +1008,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/pages/404.md">
+    <entry file="file://$PROJECT_DIR$/pages/404.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="186">
@@ -626,7 +1019,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/LICENSE">
+    <entry file="file://$PROJECT_DIR$/LICENSE">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -645,7 +1038,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/_posts/template.md">
+    <entry file="file://$PROJECT_DIR$/_posts/template.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
@@ -656,7 +1049,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/_posts/2016-12-14-rtfsc-with-opengrok.md">
+    <entry file="file://$PROJECT_DIR$/_posts/2016-12-14-rtfsc-with-opengrok.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="19">
@@ -669,7 +1062,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/Gemfile">
+    <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
@@ -677,7 +1070,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/index.html">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
@@ -685,7 +1078,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/_data/skills.yml">
+    <entry file="file://$PROJECT_DIR$/_data/skills.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -693,7 +1086,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/_data/links.yml">
+    <entry file="file://$PROJECT_DIR$/_data/links.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -701,7 +1094,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/_drafts/activity-lifecycle.md">
+    <entry file="file://$PROJECT_DIR$/_drafts/activity-lifecycle.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
@@ -712,7 +1105,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/_drafts/build-cm-yourself.md">
+    <entry file="file://$PROJECT_DIR$/_drafts/build-cm-yourself.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
@@ -723,7 +1116,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/_drafts/template.md">
+    <entry file="file://$PROJECT_DIR$/_drafts/template.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
@@ -734,7 +1127,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/_drafts/threadmanage.md">
+    <entry file="file://$PROJECT_DIR$/_drafts/threadmanage.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
@@ -745,7 +1138,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/_drafts/travis-ci-for-gitbook.md">
+    <entry file="file://$PROJECT_DIR$/_drafts/travis-ci-for-gitbook.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="95">
@@ -756,7 +1149,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/_data/social.yml">
+    <entry file="file://$PROJECT_DIR$/_data/social.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="10" column="6" lean-forward="true" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
@@ -764,7 +1157,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/_includes/comments.html">
+    <entry file="file://$PROJECT_DIR$/_includes/comments.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="2" column="23" lean-forward="true" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
@@ -772,7 +1165,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/_includes/article-footer.html">
+    <entry file="file://$PROJECT_DIR$/_includes/article-footer.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
@@ -780,7 +1173,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/_includes/sidebar-search.html">
+    <entry file="file://$PROJECT_DIR$/_includes/sidebar-search.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -788,7 +1181,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/_includes/sns-share.html">
+    <entry file="file://$PROJECT_DIR$/_includes/sns-share.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -796,7 +1189,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/_config.yml">
+    <entry file="file://$PROJECT_DIR$/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="8" column="12" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
@@ -804,7 +1197,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/_posts/blog/2017-02-19-the-kite-runner.md">
+    <entry file="file://$PROJECT_DIR$/_posts/blog/2017-02-19-the-kite-runner.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
@@ -826,7 +1219,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/_wiki/template.md">
+    <entry file="file://$PROJECT_DIR$/_wiki/template.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
@@ -864,17 +1257,17 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/assets/images/octicons-bg.png">
+    <entry file="file://$PROJECT_DIR$/assets/images/octicons-bg.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/assets/images/octocat-spinner-16px.gif">
+    <entry file="file://$PROJECT_DIR$/assets/images/octocat-spinner-16px.gif">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/assets/images/octocat-spinner-32-EAF2F5.gif">
+    <entry file="file://$PROJECT_DIR$/assets/images/octocat-spinner-32-EAF2F5.gif">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -884,7 +1277,7 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/pages/wiki.md">
+    <entry file="file://$PROJECT_DIR$/pages/wiki.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="247">
@@ -895,11 +1288,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/pages/open-source.md">
+    <entry file="file://$PROJECT_DIR$/pages/open-source.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="-384">
             <caret line="8" column="48" lean-forward="true" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNAME">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="16" lean-forward="false" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/params.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="281">
+            <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="281">
+            <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
