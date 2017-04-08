@@ -15,9 +15,9 @@
 
 ## 效果预览
 
-**[在线预览 &rarr;](http://mazhuang.org)**
+**[在线预览 &rarr;]()**
 
-![screenshot home](http://mazhuang.org/assets/images/screenshots/home.png)
+![screenshot home](http:///assets/images/screenshots/home.png)
 
 ## Fork 指南
 
