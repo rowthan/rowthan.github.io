@@ -4,10 +4,10 @@
 baseurl:
 url: http://rowthan.github.io
 date_format: "ordinal"
-title:
+title: 记录所想所做
 subtitle:
-description:
-keywords:
+description: 记录所想所做
+keywords: 前端,笔记
 favicon: /favicon.ico
 timezone: Asia/BeiJing
 encoding: "utf-8"
