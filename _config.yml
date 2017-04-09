@@ -5,7 +5,7 @@ baseurl:
 url: http://rowthan.github.io
 date_format: "ordinal"
 title: 记录所想所做
-subtitle: 
+subtitle: 遇见问题，解决问题！
 description: 记录所想所做
 keywords: 前端,笔记
 favicon: /favicon.ico
