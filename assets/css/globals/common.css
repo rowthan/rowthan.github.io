@@ -4,7 +4,7 @@
 
 .markdown-body, body {
     font-family:  Arial,"Hiragino Sans GB","冬青黑","Microsoft YaHei","微软雅黑",SimSun,"宋体",Helvetica,Tahoma,Arial sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 1.6;
     word-wrap: break-word;
     -webkit-tap-highlight-color: transparent;
@@ -34,7 +34,7 @@
 }
 
 .site-header {
-    padding: 20px;
+    padding: 15px;
     margin-bottom: 20px;
     border-bottom: 1px solid #eee
 }
