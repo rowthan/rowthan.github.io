@@ -1,3 +1,6 @@
+##TODO list
+* 优化文章目录导航条，使用 [segmentfault](https://segmentfault.com/a/1190000008997798#articleHeader3) 方式，导航条能够自动定位中间。 
+
 ## 概览
 
 <!-- vim-markdown-toc GFM -->
