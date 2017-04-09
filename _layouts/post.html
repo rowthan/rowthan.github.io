@@ -15,7 +15,7 @@ layout: default
           {% endif %}
           {% if page.update %}
           <span class="meta-info">
-            <span class="octicon octicon-calendar"></span>更新： {{ page.date | date: "%Y/%m/%d" }}
+            <span class="octicon octicon-calendar"></span>更新：{{ site.time | date_to_rfc822 }}
           </span>
           {% endif %}
           {% for cat in page.categories %}
@@ -27,7 +27,7 @@ layout: default
         </div>
       </div>
     </div>
-    <div class="column one-fourths">
+    <div class="column one-fourths mobile-hidden">
       <img src="/images/me.png" alt="wechat" style="max-height: 100px;">
     </div>
   </div>
