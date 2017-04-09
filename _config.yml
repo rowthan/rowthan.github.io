@@ -28,6 +28,9 @@ email: 912464767@qq.com
 # ---------------- #
 navs:
   -
+   href: /timeline/
+   label: 时间轴
+  -
     href: /
     label: 首页
 

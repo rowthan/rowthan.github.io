@@ -2,6 +2,9 @@
 * 优化文章目录导航条，使用 [segmentfault](https://segmentfault.com/a/1190000008997798#articleHeader3) 方式，导航条能够自动定位中间。 
 * 增加文章类别，转载，原创，借鉴
 * 所有github今日潮流
+* 博客上一篇下一篇
+* 导航栏固定，滚动切换，仿知乎
+* 赏
 ## 概览
 
 <!-- vim-markdown-toc GFM -->
