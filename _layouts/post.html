@@ -15,7 +15,7 @@ layout: default
           {% endif %}
           {% if page.update %}
           <span class="meta-info">
-            <span class="octicon octicon-calendar"></span>更新：{{ site.time | date_to_rfc822 }}
+            <span class="octicon octicon-calendar"></span>更新：{{ page.update | date_to_rfc822 }}
           </span>
           {% endif %}
           {% for cat in page.categories %}
