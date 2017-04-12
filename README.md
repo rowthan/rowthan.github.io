@@ -1,3 +1,10 @@
+##TODO list
+* 优化文章目录导航条，使用 [segmentfault](https://segmentfault.com/a/1190000008997798#articleHeader3) 方式，导航条能够自动定位中间。 
+* 增加文章类别，转载，原创，借鉴
+* 所有github今日潮流
+* 博客上一篇下一篇
+* 导航栏固定，滚动切换，仿知乎
+* 赏
 ## 概览
 
 <!-- vim-markdown-toc GFM -->
@@ -8,12 +15,6 @@
 * [致谢](#致谢)
 
 <!-- vim-markdown-toc -->
-
-## 效果预览
-
-**[在线预览 &rarr;]()**
-
-![screenshot home](http:///assets/images/screenshots/home.png)
 
 ## Fork 指南
 
@@ -68,8 +69,7 @@ Fork 本项目之后，还需要做一些事情才能让你的页面「正确」
 
 ## 致谢
 
-本博客外观基于 修改，感谢！
+本博客外观基于[DONGChuan](http://dongchuan.github.io) 修改，感谢！
 
-[1]: 
-[2]: 
-[3]: 
+[1]: https://github.com/mzlogin/chinese-copywriting-guidelines
+[2]: https://help.github.com/articles/setting-up-your-pages-site-locally-with-jekyll/

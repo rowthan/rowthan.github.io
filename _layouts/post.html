@@ -3,7 +3,7 @@ layout: default
 ---
 <section class="collection-head small geopattern" data-pattern-id="{{ page.title | truncate: 15, ''}}">
 <div class="container">
-  <div class="columns">
+  <div class="columns" style="align-items: center">
     <div class="column three-fourths">
       <div class="collection-title">
         <h1 class="collection-header">{{ page.title }}</h1>
@@ -11,6 +11,11 @@ layout: default
           {% if page.date %}
           <span class="meta-info">
             <span class="octicon octicon-calendar"></span> {{ page.date | date: "%Y/%m/%d" }}
+          </span>
+          {% endif %}
+          {% if page.update %}
+          <span class="meta-info">
+            <span class="octicon octicon-calendar"></span>更新：{{ page.update | date_to_rfc822 }}
           </span>
           {% endif %}
           {% for cat in page.categories %}
@@ -21,6 +26,9 @@ layout: default
           {% endfor %}
         </div>
       </div>
+    </div>
+    <div class="column one-fourths mobile-hidden">
+      <img src="/images/me.png" alt="wechat" style="max-height: 100px;">
     </div>
   </div>
 </div>

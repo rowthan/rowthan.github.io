@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>test</title>
+    <style>
+        body{
+            height: 1200px;
+        }
+        .flex{
+            display: flex;
+        }
+        .appHeader{
+            position: relative;
+            display: flex;
+            height: 52px;
+            align-items:center;
+            padding: 0 16px;
+        }
+        .pageHeader{
+            position: absolute;
+            top:0;
+            display: flex;
+            align-items: center;
+            height:100%;
+            transition: transform .3s,-webkit-transform .3s
+        }
+        .pageHeader:not(.is-shown) {
+            -webkit-transform: translateY(100%);
+            transform: translateY(100%);
+        }
+        .QuestionHeader-title{
+            font-size: 22px;
+            line-height: 32px;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+<header style="position: fixed; width: 100vw; background: pink; box-sizing: border-box" class="flex">
+    <div class="appHeader">
+        <a>知乎</a>
+        <nav>
+            <a href="">11</a>
+            <a href="">22</a>
+            <a href="">33</a>
+            <a href="">44</a>
+        </nav>
+    </div>
+    <div class="pageHeader" id="page">
+        <div class="pageMain">
+            <h1 class="QuestionHeader-title">沿袭 StackOverflow 模式的 </h1>
+        </div>
+       <div class="aside">
+           <button class="Button Button--primary Button--blue" type="button">关注问题</button>
+       </div>
+    </div>
+</header>
+<script>
+    window.onscroll = function (e) {
+        document.getElementById("page").className= "pageHeader is-shown";
+    }
+</script>
+</body>
+</html>

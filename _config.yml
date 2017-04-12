@@ -4,19 +4,19 @@
 baseurl:
 url: http://rowthan.github.io
 date_format: "ordinal"
-title:rowthan
-subtitle:记录所想所做
-description:
-keywords:
+title: 记录所想所做
+subtitle: 遇见问题，解决问题！
+description: 记录所想所做
+keywords: 前端,笔记
 favicon: /favicon.ico
-timezone: Asia/ChongQing
+timezone: Asia/BeiJing
 encoding: "utf-8"
 side_bar_repo_limit: 5
 
 # ---------------- #
 #      Author      #
 # ---------------- #
-author:
+author: rowthan
 organization: travel, Inc.
 organization_url:
 github_username: rowthan
@@ -27,6 +27,9 @@ email: 912464767@qq.com
 #    Navigation    #
 # ---------------- #
 navs:
+  -
+   href: /timeline/
+   label: 时间轴
   -
     href: /
     label: 首页

@@ -1,5 +1,4 @@
 // https://github.com/ghiculescu/jekyll-table-of-contents
-// Updated by http://mazhuang.org
 (function($){
   $.fn.toc = function(options) {
     var defaults = {
@@ -43,7 +42,7 @@
       none: function() { output.html(html); }
     };
 
-    var get_level = function(ele) { return parseInt(ele.nodeName.replace("H", ""), 10); }
+    var get_level = function(ele) { return parseInt(ele.nodeName.replace("H", ""), 10); };
     var highest_level = headers.map(function(_, ele) { return get_level(ele); }).get().sort()[0];
     var return_to_top = '<i class="icon-arrow-up back-to-top"> </i>';
 
@@ -173,6 +172,7 @@ $(document).ready(function(){
 });
 
 $(".jumper").on("click", function( e ) {
+  /**取消事件的默认行为 对于a链接 即取消a链接的默认事件*/
   e.preventDefault();
   $("body, html").animate({
     scrollTop: $( $(this).attr('href') ).offset().top
