@@ -145,17 +145,18 @@ $(document).ready(function(){
 
   $(window).scroll(function() {
     var currentScroll = $(window).scrollTop();
+    /**如果当前滚动超过目录位置，则将其固定*/
     if (currentScroll >= fixmeTop) {
       $('#post-directory-module').css({
         top: '0',
         position: 'fixed',
-        width: 'inherit'
+        // width: 'inherit'
       });
       $('.post-directory').css('overflow', 'auto');
     } else {
       $('#post-directory-module').css({
         position: 'inherit',
-        width: 'inherit'
+        // width: 'inherit'
       });
       $('.post-directory').css('overflow', 'hidden');
       $('.post-directory').scrollTop(0);
