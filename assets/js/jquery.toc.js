@@ -150,13 +150,13 @@ $(document).ready(function(){
       $('#post-directory-module').css({
         top: '0',
         position: 'fixed',
-        width: 'inherit'
+        // width: 'inherit'
       });
       $('.post-directory').css('overflow', 'auto');
     } else {
       $('#post-directory-module').css({
         position: 'inherit',
-        width: '100%'
+        // width: '100%'
       });
       $('.post-directory').css('overflow', 'hidden');
       $('.post-directory').scrollTop(0);
