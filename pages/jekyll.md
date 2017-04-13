@@ -1,11 +1,9 @@
 ---
 layout: page
 title: jekyll
-description: 
-keywords: 
-comments: true
-menu: 关于 jekyll
-permalink: /jekyll/
+description: jekyll说明文档
+keywords: jekyll
+comments: false
+permalink: /jekyll
 ---
-
-post.excerpt | strip_html | strip 
+post.excerpt | strip_html | strip
