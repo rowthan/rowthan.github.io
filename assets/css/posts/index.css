@@ -4,7 +4,10 @@
     flex-wrap: wrap;
 }
 .postContent{
-    width: 700px;
+    width: 710px;
+}
+.postMenu{
+    width: 310px;
 }
 .article-content{
     background: #fff;
@@ -30,7 +33,7 @@
     font-size: 14px;
     background: #fff;
     overflow: hidden;
-    /*width: 300px;*/
+    width: 310px;
     padding-bottom: 1em;
     /*border: 1px solid #efefef;*/
     color: #999;
