@@ -4,6 +4,9 @@
 body{
     background-color: #f7f8fa;
 }
+.container{
+    width: 1030px;
+}
 
 .markdown-body, body {
     font-family:  Arial,"Hiragino Sans GB","冬青黑","Microsoft YaHei","微软雅黑",SimSun,"宋体",Helvetica,Tahoma,Arial sans-serif;
