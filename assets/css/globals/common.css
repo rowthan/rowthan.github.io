@@ -1,6 +1,9 @@
 .site-header, .site-header-actions .select-menu {
     position: relative
 }
+body{
+    border-color: #fff;
+}
 
 .markdown-body, body {
     font-family:  Arial,"Hiragino Sans GB","冬青黑","Microsoft YaHei","微软雅黑",SimSun,"宋体",Helvetica,Tahoma,Arial sans-serif;
@@ -12,6 +15,9 @@
     -webkit-backface-visibility: hidden
 }
 
+.content{
+    background-color: #fff;
+}
 
 .pagination {
     padding: 20px 0
