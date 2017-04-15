@@ -34,24 +34,24 @@ layout: default
 </div>
 </section>
 <!-- / .banner -->
-<section class="container content">
-<div class="columns postContainer">
-  <div class="column three-fourths post" >
-    <article class="article-content markdown-body">
-    {{ content }}
-    {% include article-footer.html %}
-    </article>
-    <div class="share">
-      {% include sns-share.html %}
+<section class="container">
+  <div class="postContainer">
+    <div class="postContent" >
+      <article class="article-content markdown-body">
+      {{ content }}
+      {% include article-footer.html %}
+      </article>
+      <div class="share">
+        {% include sns-share.html %}
+      </div>
+      <div class="comment">
+        {% include comments.html %}
+      </div>
     </div>
-    <div class="comment">
-      {% include comments.html %}
-    </div>
+    <aside class="postMenu">
+      {% include sidebar-search.html %}
+      {% include sidebar-post-nav.html %}
+    </aside>
   </div>
-  <div class="column one-fourth">
-    {% include sidebar-search.html %}
-    {% include sidebar-post-nav.html %}
-  </div>
-</div>
 </section>
 <!-- /section.content -->
