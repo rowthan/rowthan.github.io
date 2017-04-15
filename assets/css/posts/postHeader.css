@@ -2,6 +2,7 @@ header.fixed {
     position: fixed;
     width: 100%;
     box-sizing: border-box;
+    background: #fff;
     overflow: hidden;
     border-bottom: 1px solid rgba(30,35,42,.06);
     box-shadow: 0 1px 3px 0 rgba(0,34,77,.05);
@@ -13,13 +14,14 @@ header.fixed {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background: #fff;
 }
 
 .appHeader{
     position: relative;
     height: 52px;
     padding: 0 16px;
+    width: 1000px;
+    margin:0 auto;
 }
 .pageHeader{
     position: absolute;
@@ -29,6 +31,10 @@ header.fixed {
     height: 100%;
     -webkit-transition: -webkit-transform .3s;
     transition: transform .3s;
+}
+.pageContent{
+    width: 1000px;
+    margin: 0 auto;
 }
 .pageHeader:not(.is-shown) {
     -webkit-transform: translateY(100%);
