@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="/assets/vendor/share.js/dist/css/share.min.css">
     <link rel="stylesheet" href="/assets/css/globals/responsive.css">
     <link rel="stylesheet" href="/assets/css/posts/index.css">
+    <link rel="stylesheet" href="/assets/css/posts/postHeader.css">
     <!-- Latest compiled and minified CSS -->
     {% for css in page.css %}
     <link rel="stylesheet" href="/assets/css/{{css}}">
@@ -96,3 +97,59 @@
         </div>
     </header>
     <!-- / header -->
+    <header class="fixed">
+        <div class="appHeader">
+            <h1><a href="/" title="{{ site.title }}"><span class="octicon octicon-mark-github"></span> {{ site.title }}</a></h1>
+            <button class="collapsed mobile-visible" type="button" onclick="toggleMenu();">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <nav class="site-header-nav" role="navigation">
+                {% for nav in site.navs %}
+                <a href="{{ nav.href }}" class="{% if page.menu == nav.label %} selected {% endif %} site-header-nav-item" target="{{ nav.target | default: _self }}" title="{{ nav.label }}">{{ nav.label }}</a>
+                {% endfor %}
+            </nav>
+        </div>
+        <div class="pageHeader" id="page">
+            <div class="pageMain">
+                <h1 class="postTitle">page.title </h1>
+            </div>
+            <div class="aside">
+
+            </div>
+        </div>
+    </header>
+    <script>
+        var t = 0;
+        var p =  get_scrollTop_of_body();
+        window.onscroll = function (e) {
+            t =  get_scrollTop_of_body();
+            /**下拉*/
+            if(t>p){
+                document.getElementById("page").className= "pageHeader is-shown";
+            }
+            else{
+                document.getElementById("page").className= "pageHeader";
+            }
+            console.log("--"+t+"---"+p);
+            p = t;
+        };
+
+        function get_scrollTop_of_body(){
+            var scrollTop;
+            if(typeof window.pageYOffset != 'undefined'){
+                scrollTop = window.pageYOffset;
+            }
+            else
+            if(typeof document.compatMode != 'undefined' &&
+                document.compatMode != 'BackCompat'){
+                scrollTop = document.documentElement.scrollTop;
+            }
+            else
+            if(typeof document.body != 'undefined'){
+                scrollTop = document.body.scrollTop;
+            }
+            return scrollTop;
+        }
+    </script>

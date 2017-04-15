@@ -1,0 +1,38 @@
+header.fixed {
+    position: fixed;
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden
+}
+
+.appHeader,.pageHeader{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.appHeader{
+    position: relative;
+    height: 52px;
+    padding: 0 16px;
+}
+.pageHeader{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    -webkit-transition: -webkit-transform .3s;
+    transition: transform .3s;
+}
+.pageHeader:not(.is-shown) {
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+}
+
+h1.postTitle{
+    font-size: 22px;
+    line-height: 32px;
+    margin: 0;
+}

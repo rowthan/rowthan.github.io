@@ -1,5 +1,6 @@
 ##TODO list
 * 优化文章目录导航条，使用 [segmentfault](https://segmentfault.com/a/1190000008997798#articleHeader3) 方式，导航条能够自动定位中间。 
+* 文章目录适配手机
 * 增加文章类别，转载，原创，借鉴
 * 所有github今日潮流
 * 博客上一篇下一篇

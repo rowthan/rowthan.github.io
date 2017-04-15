@@ -149,14 +149,12 @@ $(document).ready(function(){
     if (currentScroll >= fixmeTop) {
       $('#post-directory-module').css({
         top: '0',
-        position: 'fixed',
-        // width: 'inherit'
+        position: 'fixed'
       });
       $('.post-directory').css('overflow', 'auto');
     } else {
       $('#post-directory-module').css({
-        position: 'inherit',
-        // width: '100%'
+        position: 'inherit'
       });
       $('.post-directory').css('overflow', 'hidden');
       $('.post-directory').scrollTop(0);
