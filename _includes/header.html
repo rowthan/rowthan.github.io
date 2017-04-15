@@ -114,7 +114,7 @@
         <div class="pageHeader" id="pageHeader">
             <div class="pageContent">
                 <div class="pageMain">
-                    <h1 class="postTitle">{{page.title}} </h1>
+                    <h1 class="postTitle" onclick="goTop()">{{page.title}} </h1>
                 </div>
                 <div class="aside">
                 </div>
@@ -139,10 +139,11 @@
                 document.getElementById("pageHeader").className= "pageHeader";
                 document.getElementById("appHeader").className= "appHeader";
             }
-            console.log("--"+t+"---"+p);
             p = t;
         };
-
+        $('html, body').animate({
+            scrollTop: 0
+        }, 2000);
         function get_scrollTop_of_body(){
             var scrollTop;
             if(typeof window.pageYOffset != 'undefined'){
@@ -158,5 +159,18 @@
                 scrollTop = document.body.scrollTop;
             }
             return scrollTop;
+        }
+
+
+        function goTop(){
+            timer = setInterval(function () {
+                //获取scrollTop
+                var scrollTop=document.documentElement.scrollTop||document.body.scrollTop;
+                var ispeed=Math.floor(-scrollTop/8);
+                if(scrollTop==0){
+                    clearInterval(timer)
+                }
+                document.documentElement.scrollTop=document.body.scrollTop=scrollTop+ispeed;
+            },30)
         }
     </script>
