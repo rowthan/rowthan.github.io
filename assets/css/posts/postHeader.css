@@ -13,7 +13,6 @@ header.fixed {
 .appHeader,.pageHeader{
     display: flex;
     align-items: center;
-    justify-content: space-around;
     background: #fff;
 }
 
@@ -45,6 +44,7 @@ header.fixed {
 .pageContent{
     width: 1000px;
     margin: 0 auto;
+    padding: 0 16px
 }
 .pageHeader:not(.is-shown) {
     -webkit-transform: translateY(100%);
