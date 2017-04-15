@@ -2,12 +2,21 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    align-items: flex-start;
+    max-width: 1020px;
+    margin: 10px auto;
+}
+/**电脑比较友好的阅读条件下**/
+@media screen and (min-width: 800px){
+    .postContainer{
+        width: 1020px;
+    }
 }
 .postContent{
     width: 710px;
 }
-.postMenu{
-    width: 310px;
+.postAside{
+    width: 300px;
 }
 .article-content{
     background: #fff;
@@ -33,7 +42,7 @@
     font-size: 14px;
     background: #fff;
     overflow: hidden;
-    width: 310px;
+    width: 300px;
     padding-bottom: 1em;
     /*border: 1px solid #efefef;*/
     color: #999;

@@ -7,6 +7,11 @@ body{
 .container{
     width: 1030px;
 }
+@media screen and (max-width:540px) {
+    .container {
+        width: auto;
+    }
+}
 
 .markdown-body, body {
     font-family:  Arial,"Hiragino Sans GB","冬青黑","Microsoft YaHei","微软雅黑",SimSun,"宋体",Helvetica,Tahoma,Arial sans-serif;
@@ -147,17 +152,12 @@ body{
     }
 }
 
-.site-header-nav {
-    float: right;
-    margin-bottom: -20px
-}
-
 .site-header-nav-item {
     display: inline-block;
-    padding: 6px 10px 15px;
-    margin-left: 1.25rem;
-    font-size: 1rem;
-    color: #777
+    padding: 0 10px;
+    font-size: 15px;
+    line-height: 30px;
+    color: #8590a6;
 }
 
 .site-footer:after, .site-footer:before {
@@ -693,4 +693,8 @@ body{
 
 .pl-mo {
     color: #1d3e81
+}
+
+.flex{
+    display: flex;
 }

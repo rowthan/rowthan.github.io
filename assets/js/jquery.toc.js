@@ -148,7 +148,7 @@ $(document).ready(function(){
     /**如果当前滚动超过目录位置，则将其固定*/
     if (currentScroll >= fixmeTop) {
       $('#post-directory-module').css({
-        top: '0',
+        top: '52px',
         position: 'fixed'
       });
       $('.post-directory').css('overflow', 'auto');

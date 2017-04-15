@@ -19,13 +19,14 @@ header.fixed {
 .appHeader{
     position: relative;
     height: 52px;
+    width: 1020px;
     padding: 0 16px;
-    width: 1000px;
     margin:0 auto;
     -webkit-transition: -webkit-transform .3s;
     transition: -webkit-transform .3s;
     transition: transform .3s;
     transition: transform .3s,-webkit-transform .3s;
+    align-items: center;
 }
 
 .appHeader.is-hidden{
@@ -42,9 +43,17 @@ header.fixed {
     transition: transform .3s;
 }
 .pageContent{
-    width: 1000px;
+    width: 1020px;
     margin: 0 auto;
     padding: 0 16px
+}
+@media screen and (max-width: 800px){
+    .pageContent{
+        width: 100%;
+    }
+    .appHeader{
+        width: 100%;
+    }
 }
 .pageHeader:not(.is-shown) {
     -webkit-transform: translateY(100%);
