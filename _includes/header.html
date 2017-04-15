@@ -98,7 +98,7 @@
     <!--</header>-->
     <!--&lt;!&ndash; / header &ndash;&gt;-->
     <header class="fixed">
-        <div class="appHeader">
+        <div class="appHeader" id="appHeader">
             <h1><a href="/" title="{{ site.title }}"><span class="octicon octicon-mark-github"></span> {{ site.title }}</a></h1>
             <button class="collapsed mobile-visible" type="button" onclick="toggleMenu();">
                 <span class="icon-bar"></span>
@@ -111,7 +111,7 @@
                 {% endfor %}
             </nav>
         </div>
-        <div class="pageHeader" id="page">
+        <div class="pageHeader" id="pageHeader">
             <div class="pageContent">
                 <div class="pageMain">
                     <h1 class="postTitle">{{page.title}} </h1>
@@ -132,10 +132,12 @@
             t =  get_scrollTop_of_body();
             /**下拉*/
             if(t>p){
-                document.getElementById("page").className= "pageHeader is-shown";
+                document.getElementById("pageHeader").className= "pageHeader is-shown";
+                document.getElementById("appHeader").className= "appHeader is-hidden";
             }
             else{
-                document.getElementById("page").className= "pageHeader";
+                document.getElementById("pageHeader").className= "pageHeader";
+                document.getElementById("appHeader").className= "appHeader";
             }
             console.log("--"+t+"---"+p);
             p = t;

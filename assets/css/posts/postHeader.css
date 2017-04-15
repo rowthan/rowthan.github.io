@@ -14,6 +14,7 @@ header.fixed {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    background: #fff;
 }
 
 .appHeader{
@@ -22,7 +23,16 @@ header.fixed {
     padding: 0 16px;
     width: 1000px;
     margin:0 auto;
+    -webkit-transition: -webkit-transform .3s;
+    transition: -webkit-transform .3s;
+    transition: transform .3s;
+    transition: transform .3s,-webkit-transform .3s;
 }
+
+.appHeader.is-hidden{
+    transform: translateY(-100%);
+}
+
 .pageHeader{
     position: absolute;
     top:0;
