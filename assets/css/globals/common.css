@@ -15,10 +15,6 @@ body{
     -webkit-backface-visibility: hidden
 }
 
-.content{
-    background-color: #fff;
-}
-
 .pagination {
     padding: 20px 0
 }
