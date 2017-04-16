@@ -133,3 +133,9 @@
     margin-top: 15px
   }
 }
+
+@media (max-width: 800px)  {
+  .hidden-sm {
+    display: none !important;
+  }
+}

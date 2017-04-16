@@ -8,6 +8,7 @@ header.fixed {
     box-shadow: 0 1px 3px 0 rgba(0,34,77,.05);
     background-clip: content-box;
     z-index: 9999;
+    flex-wrap: wrap;
 }
 
 .appHeader,.pageHeader{
@@ -27,6 +28,7 @@ header.fixed {
     transition: transform .3s;
     transition: transform .3s,-webkit-transform .3s;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .appHeader.is-hidden{
@@ -45,7 +47,7 @@ header.fixed {
 .pageContent{
     width: 1020px;
     margin: 0 auto;
-    padding: 0 16px
+    padding: 0 16px;
 }
 @media screen and (max-width: 800px){
     .pageContent{
@@ -60,9 +62,9 @@ header.fixed {
     transform: translateY(100%);
 }
 
-h1.postTitle{
-    font-size: 22px;
-    line-height: 32px;
-    margin: 0;
-    cursor: pointer;
+.headerTitle{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    width: 300px;
 }

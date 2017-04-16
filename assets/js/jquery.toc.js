@@ -118,7 +118,6 @@ $(document).ready(function(){
     var highlightIndex = 0;
     var sectionsCount = tocSectionOffsets.length;
     var currentScroll = $(window).scrollTop();
-
     if (currentScroll+60 > tocSectionOffsets[sectionsCount-1]) {
       highlightIndex = sectionsCount;
     } else {
@@ -143,25 +142,6 @@ $(document).ready(function(){
       $('.post-directory').css('max-height', height);
   }
 
-  $(window).scroll(function() {
-    var currentScroll = $(window).scrollTop();
-    /**如果当前滚动超过目录位置，则将其固定*/
-    if (currentScroll >= fixmeTop) {
-      $('#post-directory-module').css({
-        top: '52px',
-        position: 'fixed'
-      });
-      $('.post-directory').css('overflow', 'auto');
-    } else {
-      $('#post-directory-module').css({
-        position: 'inherit'
-      });
-      $('.post-directory').css('overflow', 'hidden');
-      $('.post-directory').scrollTop(0);
-    }
-
-    highlightTocSection();
-  });
 
   updateTocHeight();
 
