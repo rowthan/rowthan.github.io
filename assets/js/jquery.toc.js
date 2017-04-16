@@ -1,5 +1,4 @@
 // https://github.com/ghiculescu/jekyll-table-of-contents
-// Updated by http://mazhuang.org
 (function($){
     $.fn.toc = function(options) {
         var defaults = {
@@ -43,7 +42,7 @@
             none: function() { output.html(html); }
         };
 
-        var get_level = function(ele) { return parseInt(ele.nodeName.replace("H", ""), 10); }
+        var get_level = function(ele) { return parseInt(ele.nodeName.replace("H", ""), 10); };
         var highest_level = headers.map(function(_, ele) { return get_level(ele); }).get().sort()[0];
         var return_to_top = '<i class="icon-arrow-up back-to-top"> </i>';
 
@@ -119,7 +118,6 @@ $(document).ready(function(){
         var highlightIndex = 0;
         var sectionsCount = tocSectionOffsets.length;
         var currentScroll = $(window).scrollTop();
-
         if (currentScroll+60 > tocSectionOffsets[sectionsCount-1]) {
             highlightIndex = sectionsCount;
         } else {
@@ -143,26 +141,30 @@ $(document).ready(function(){
         height = height || 'auto';
         $('.post-directory').css('max-height', height);
     }
-
     $(window).scroll(function() {
         var currentScroll = $(window).scrollTop();
+        /**如果当前滚动超过目录位置，则将其固定*/
         if (currentScroll >= fixmeTop) {
             $('#post-directory-module').css({
-                top: '0',
-                position: 'fixed',
-                width: 'inherit'
+                top: '52px',
+                position: 'fixed'
             });
             $('.post-directory').css('overflow', 'auto');
         } else {
             $('#post-directory-module').css({
-                position: 'inherit',
-                width: 'inherit'
+                position: 'inherit'
             });
             $('.post-directory').css('overflow', 'hidden');
             $('.post-directory').scrollTop(0);
         }
-
         highlightTocSection();
+        //TODO 待优化
+        /**设置前提，fixed 注意resize**/
+        var leftScroll = $(window).scrollLeft();
+        if(leftScroll){
+            var elementLeft = $('#post-directory-module').offset().left;
+            $('#post-directory-module').css("left",710-leftScroll+"px");
+        }
     });
 
     updateTocHeight();
@@ -172,7 +174,8 @@ $(document).ready(function(){
     });
 });
 
-$(".jumper").on("click", function( e ) {
+$(".jumper").on("click", function( e ) {
+    /**取消事件的默认行为 对于a链接 即取消a链接的默认事件*/
     e.preventDefault();
     $("body, html").animate({
         scrollTop: $( $(this).attr('href') ).offset().top
