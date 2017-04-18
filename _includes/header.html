@@ -102,7 +102,7 @@
         <div class="pageHeader" id="pageHeader">
             <div class="pageContent">
                 <div class="pageMain">
-                    <a class="postTitle" onclick="goTop()">{{page.title}} </a>
+                    <a class="postTitle" title="返回顶部" onclick="goTop()">{{page.title}} </a>
                 </div>
                 <div class="aside">
                 </div>
@@ -118,7 +118,7 @@
         window.onscroll = function (e) {
             t =  get_scrollTop_of_body();
             /**下拉*/
-            if(t>p){
+            if( t>p && t > 100){
                 document.getElementById("pageHeader").className= "pageHeader is-shown";
                 document.getElementById("appHeader").className= "appHeader is-hidden";
             }

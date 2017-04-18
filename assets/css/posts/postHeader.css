@@ -68,3 +68,14 @@ header.fixed {
     align-items: center;
     width: 300px;
 }
+
+a.postTitle{
+    color: #1e1e1e;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 400;
+}
+a.postTitle:hover{
+    text-decoration: none;
+}

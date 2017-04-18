@@ -31,8 +31,11 @@ header.fixed {
     transform: translateY(100%);
 }
 
-h1.postTitle{
-    font-size: 22px;
-    line-height: 32px;
-    margin: 0;
+a.postTitle{
+    color:black;
+    cursor: pointer;
+    text-decoration: none;
+}
+a.postTitle:hover{
+    text-decoration: none;
 }
