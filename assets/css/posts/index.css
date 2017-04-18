@@ -15,37 +15,38 @@
 .postContent{
     width: 710px;
     flex-grow: 1;
+    max-width: 100%;
 }
 .postAside{
-    width: 300px;
+width: 300px;
 }
 .article-content{
-    background: #fff;
-    padding: 15px;
-    border: 1px solid #e7eaf1;
-    border-radius: 2px;
-    box-shadow: 0 1px 3px rgba(0,37,55,.05);
-    box-sizing: border-box;
+background: #fff;
+padding: 15px;
+border: 1px solid #e7eaf1;
+border-radius: 2px;
+box-shadow: 0 1px 3px rgba(0,37,55,.05);
+box-sizing: border-box;
 }
 .post{
-    border: 1px solid #e7eaf1;
-    border-radius: 2px;
-    box-shadow: 0 1px 3px rgba(0,37,55,.05);
-    box-sizing: border-box;
-    padding: 20px;
-    background-color: #fff;
+border: 1px solid #e7eaf1;
+border-radius: 2px;
+box-shadow: 0 1px 3px rgba(0,37,55,.05);
+box-sizing: border-box;
+padding: 20px;
+background-color: #fff;
 }
 #post-directory-module {
-    z-index: 999;
+z-index: 999;
 }
 
 .post-directory {
-    font-size: 14px;
-    background: #fff;
-    overflow: hidden;
-    width: 300px;
-    padding-bottom: 1em;
-    /*border: 1px solid #efefef;*/
+font-size: 14px;
+background: #fff;
+overflow: hidden;
+width: 300px;
+padding-bottom: 1em;
+/*border: 1px solid #efefef;*/
     color: #999;
 }
 
