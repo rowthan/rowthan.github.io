@@ -75,6 +75,8 @@ a.postTitle{
     text-decoration: none;
     font-size: 22px;
     font-weight: 400;
+    display: inline-block;
+    width: 200px;
 }
 a.postTitle:hover{
     text-decoration: none;
