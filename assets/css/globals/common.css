@@ -1,9 +1,6 @@
 .site-header, .site-header-actions .select-menu {
     position: relative
 }
-body{
-    background-color: #f7f8fa;
-}
 .container{
     width: 1030px;
 }
