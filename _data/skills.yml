@@ -1,10 +1,10 @@
 - name: Software Engineer Keywords
   keywords:
-      - Java
-      - C++
-      - Python
+      - JavaScript
+      - NodeJS
+      - JAVA
       - Design Patterns
 
 - name: Mobile Developer Keywords
   keywords:
-      - Android
+      - 前端
