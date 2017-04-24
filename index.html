@@ -30,8 +30,8 @@ comments: true
 </section>
 <!-- /.banner -->
 <section class="container content">
-    <div class="columns">
-        <div class="column two-thirds" >
+    <div class="flex">
+        <div class="two-thirds" >
             <ol class="repo-list">
                 {% for post in paginator.posts %}
                 <li class="repo-list-item">
@@ -56,7 +56,7 @@ comments: true
                 {% endfor %}
             </ol>
         </div>
-        <div class="column one-third">
+        <div class="one-third">
             {% include sidebar-search.html %}
             {% include sidebar-popular-repo.html %}
         </div>

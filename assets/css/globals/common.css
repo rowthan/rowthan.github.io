@@ -1,13 +1,22 @@
-.site-header, .site-header-actions .select-menu {
-    position: relative
-}
 .container{
-    width: 1030px;
+    max-width: 1020px;
+    margin: 0 auto;
+}
+@media screen and (min-width: 800px) {
+    .container {
+        width: 1020px;
+    }
 }
 @media screen and (max-width:540px) {
     .container {
         width: auto;
     }
+}
+.w7{
+    width: 710px;
+}
+.w3{
+    width: 300px;
 }
 
 .markdown-body, body {
@@ -125,7 +134,9 @@
 .site-header-actions .select-menu-modal-holder {
     top: 100%
 }
-
+.site-header, .site-header-actions .select-menu {
+    position: relative
+}
 .context-loader {
     position: absolute;
     top: 0;
