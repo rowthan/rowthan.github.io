@@ -67,6 +67,9 @@
     {% if page.date %}
     <meta property="article:published_time" content="{{ page.date | date: '%Y-%m-%d' }}">
     {% endif %}
+    <a class="edit-page-link"
+       	    href="https://github.com/rowthan/rowthan.github.io/blob/master/{{ page.path }}"
+       	    target="_blank">header Edit on GitHub{{page.sectionid}}</a>
     <script src="/assets/vendor/jquery/dist/jquery.min.js"></script>
     <script src="/assets/js/jquery-ui.js"></script>
     <script type="text/javascript">
