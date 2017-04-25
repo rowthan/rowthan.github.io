@@ -19,6 +19,44 @@
     width: 300px;
 }
 
+
+
+.Button{
+    display: inline-block;
+    padding: 0 16px;
+    font-size: 14px;
+    line-height: 32px;
+    color: #8590a6;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid #ccd8e1;
+    border-radius: 3px;
+    background: none;
+}
+
+.CornerButton{
+    background: #e7eaf1;
+}
+.CornerButtons-button{
+    width: 40px;
+    height: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .markdown-body, body {
     font-family:  Arial,"Hiragino Sans GB","冬青黑","Microsoft YaHei","微软雅黑",SimSun,"宋体",Helvetica,Tahoma,Arial sans-serif;
     font-size: 15px;

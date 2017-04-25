@@ -1,0 +1,23 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+
+/**position start*/
+
+/**position end*/
+
+
+/**container start**/
+.container{
+    width: 1020px;
+    margin: 0 auto;
+}
+.left_container{
+    width: 700px;
+}
+.right_container{
+    width: 300px;
+}
+/**container end**/
+
