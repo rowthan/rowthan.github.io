@@ -1,6 +1,4 @@
 {% include header.html %}
     {{ content }}
-<a class="edit-page-link"
-   	    href="https://github.com/rowthan/rowthan.github.io/blob/master/{{ page.path }}"
-   	    target="_blank">{{section}}Edit on {{test}}GitHub{{page.sectionid}}</a>
+default：{{page.isTEST}}
 {% include footer.html %}
