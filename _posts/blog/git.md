@@ -1,3 +1,15 @@
+---
+layout: post
+title: Git 使用小结
+categories: 技能总结
+description: Git 使用了挺久了，有些地方总结一下
+keywords: Git,Git-bash,Git-flow,pipeline
+update: 2017/04/25
+---
+ 
+> Git 使用了挺久了，项目组最开始使用 Git 的时候，我还是为数不多 Git 使用者，参与了从 SVN 转移至
+ Git 的工作。包括 Git 使用，Git flow，pipeline 等，谈一谈自己的认识。
+ 
  查看本地分支以及远程分支（-a 参数会显示远程分支）
 > git branch -a
 

@@ -12,11 +12,6 @@ layout: default
               <span class="octicon octicon-calendar"></span> {{ page.date | date: "%Y/%m/%d" }}
             </span>
             {% endif %}
-            {% if page.update %}
-            <span class="meta-info">
-              <span class="octicon octicon-calendar"></span>更新：{{ page.update | date_to_rfc822 }}
-            </span>
-            {% endif %}
             {% for cat in page.categories %}
             <span class="meta-info">
               <span class="octicon octicon-file-directory"></span>
@@ -24,6 +19,13 @@ layout: default
             </span>
             {% endfor %}
           </div>
+          {% if page.update %}
+            <div class="collection-info">
+              <span class="meta-info">
+                <span class="octicon octicon-clock"></span>updateAt：{{ page.update | "%Y/%m/%d" }}
+              </span>
+            </div>
+          {% endif %}
         </div>
       </div>
       <div class="">
