@@ -19,7 +19,10 @@
     width: 300px;
 }
 
-
+.between{
+    display: flex;
+    justify-content: space-between;
+}
 
 .Button{
     display: inline-block;

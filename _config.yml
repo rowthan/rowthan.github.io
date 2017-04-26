@@ -3,6 +3,7 @@
 # ---------------- #
 baseurl:
 url: http://rowthan.github.io
+basePostUrl: https://github.com/rowthan/rowthan.github.io/blob/master/
 date_format: "ordinal"
 title: 记录所想所做
 subtitle: 遇见问题，解决问题！
@@ -81,7 +82,7 @@ collections:
         output: true
         permalink: /wiki/:path/
 
-repository: rowthan/rowthan.github.io
+repository: rowthan/
 
 # ---------------- #
 #      Comments    #
