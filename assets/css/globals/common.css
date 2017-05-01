@@ -238,7 +238,7 @@
     font-size: 12px;
     line-height: 1.5;
     color: #777;
-    border-top: 1px solid #eee
+    border-top: 1px dashed #ddd;
 }
 
 .markdown-body h1, .markdown-body h2 {
@@ -247,7 +247,7 @@
 }
 
 .site-footer .copyright {
-    padding-right: 20px
+    padding: 0 20px
 }
 
 .site-footer:after {
