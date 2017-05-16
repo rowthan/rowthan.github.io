@@ -51,6 +51,10 @@ navs:
     href: /about/
     label: 关于
 
+  -
+    href: /H5/
+    label: H5工作室
+
 # ---------------- #
 #       RSS        #
 # ---------------- #
@@ -67,7 +71,7 @@ paginate: 8
 lsi: false
 quiet: false
 excerpt_separator: "\n\n"
-permalink: /:year/:month/:day/:title/
+permalink: none
 gems:
     - jekyll-github-metadata
     - rouge
