@@ -50,7 +50,7 @@ JavaScript引擎负责解析，执行JavaScript代码，但它并不能单独运
 简单的说就是，存在一个事件队列，线程在执行任务时，会从队列中取出并执行，如果是一个异步的操作，则交给异步的线程去处理，b任务不用等a任务结束，就开始执行了
 然后，当异步操作结束之后，会将异步的回调函数放入队列中，然后再继续执行。
 <p style="text-align: center;">
-    <img src="/images/posts/eventloop.png" alt="event">
+    <img src="/images/posts/event.png" alt="event">
     <br/>
     图2 event
 </p>
