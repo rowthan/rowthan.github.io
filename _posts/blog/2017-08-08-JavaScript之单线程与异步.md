@@ -92,3 +92,9 @@ while(true){
 
 对了，如果你有在浏览器中执行以上代码，想必电脑的电风扇已经在高速运转了，看看任务管理器，是不是cup已经爆棚了...
 赶紧结束进程吧，你刚刚执行的可是一段永为真的代码呀！知道堵塞的严重性了吧。【逃】
+
+## 参考
+* [深入剖析Nodejs的异步IO](http://blog.csdn.net/yezhenxu1992/article/details/51731237)
+* [JavaScript 运行机制详解：再谈Event Loop](http://www.ruanyifeng.com/blog/2014/10/event-loop.html)
+* [NodeJS -- 异步编程](http://www.cnblogs.com/TwinklingZ/p/5995689.html)
+* [《深入浅出Node.js》学习笔记——（四）异步编程](http://blog.csdn.net/oeternalflame/article/details/51541045)
