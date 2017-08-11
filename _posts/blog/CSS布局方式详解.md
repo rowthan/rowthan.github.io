@@ -1,3 +1,0 @@
-table
-block
-inline-block
