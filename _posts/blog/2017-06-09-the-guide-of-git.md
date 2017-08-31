@@ -184,8 +184,10 @@ work tree 太混乱有没有办法能够梳理干净一点？  http://blog.csdn.
 
 ## 提交规范
 good:   
-> change let into const(#457)
-
+```javascript
+change let into const(#457)
 this patch:
 - changes 'let' into 'canst'
 - adds eslint check to prefer const over let
+```
+
