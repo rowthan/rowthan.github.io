@@ -181,3 +181,11 @@ work tree 太混乱有没有办法能够梳理干净一点？  http://blog.csdn.
 |:wrench: (扳手)                         | `:wrench:`                   | 修改配置文件|
 |:globe_with_meridians: (地球)           | `:globe_with_meridians:`     | 国际化与本地化|
 |:pencil2: (铅笔)                        | `:pencil2:`                  | 修复 typo|
+
+## 提交规范
+good:   
+> change let into const(#457)
+
+this patch:
+- changes 'let' into 'canst'
+- adds eslint check to prefer const over let
