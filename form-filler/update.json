@@ -1,0 +1,15 @@
+{
+  "formFill":{
+    "deadline":"2017/9/30",
+    "updateUrl":"https://logike.cn",
+    "tip":"",
+    "updateItem":[{
+      "title":"1.",
+      "message":"更新内容一"
+    },{
+      "title":"2.",
+      "message":"更新内容二"
+    }],
+    "version":"0.0.2"
+  }
+}
