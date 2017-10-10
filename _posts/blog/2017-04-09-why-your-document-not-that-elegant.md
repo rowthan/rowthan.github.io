@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 文档排版
+title: 文档排版怎样才好看
 class: post
 categories: Design
 description: 文档排版不好看，可能你忽略了这些细节
