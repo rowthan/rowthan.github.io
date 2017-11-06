@@ -1,15 +1,15 @@
 {
   "formFill":{
-    "deadline":"2017/9/30",
-    "updateUrl":"https://logike.cn",
-    "tip":"",
+    "deadline":"2017/12/30",
+    "updateUrl":"https://github.com/rowthan/auto-actor/releases",
+    "contextMessage":"alpha",
     "updateItem":[{
-      "title":"1.",
-      "message":"更新内容一"
+      "title":"1,
+      "message":"第一个alpha版本，推荐使用"
     },{
       "title":"2.",
-      "message":"更新内容二"
+      "message":"支持运行报告记录啦"
     }],
-    "version":"0.0.2"
+    "version":"0.0.1-alpha"
   }
 }
