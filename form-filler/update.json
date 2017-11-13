@@ -1,15 +1,12 @@
 {
   "formFill":{
-    "deadline":"2017/12/30",
-    "updateUrl":"https://github.com/rowthan/auto-actor/releases",
-    "contextMessage":"alpha",
+    "deadline":"2017/11/30",
+    "updateUrl":"https://gitlab.cae.com/rhran/auto-actor",
+    "contextMessage":"beta",
     "updateItem":[{
       "title":"1",
-      "message":"第一个alpha版本，推荐使用"
-    },{
-      "title":"2.",
-      "message":"支持运行报告记录啦"
+      "message":"支持正则匹配，一条测试用例可以用于多个网站了！"
     }],
-    "version":"0.0.1-alpha"
+    "version":"0.0.1-beta"
   }
 }
