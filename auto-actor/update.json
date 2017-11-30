@@ -1,22 +1,26 @@
 {
   "formFill":{
-    "deadline":"2017/11/30",
-    "updateUrl":"https://gitlab.cae.com/rhran/auto-actor/release/auto-actor-0.0.2.crx",
-    "contextMessage":"new",
+    "deadline":"2017/12/11",
+    "updateUrl":"https://gitlab.cae.com/rhran/auto-actor/blob/fit/release/auto-actor-0.0.3.crx",
+    "contextMessage":"新功能",
     "updateItem":[
       {
       "title":"1",
-      "message":"引入 whats-element 方便写用例时定位元素。统一标识符规范，不再使用“#”，“.”前缀区分"
+      "message":"升级id拾取器"
       },
       {
         "title":"2",
-        "message":"不再支持 “radio”的action类型，通过 input 和 click 两种方式支持 radio 行为"
+        "message":"修复yaml编辑器和弹出框编辑器不同步的问题"
       },
       {
         "title":"3",
-        "message":"增加复制用例功能"
+        "message":"新增导入导出功能"
+      },
+      {
+        "title":"4",
+        "message":"优化日志保存"
       }
     ],
-    "version":"0.0.2"
+    "version":"0.0.3"
   }
 }
