@@ -2,6 +2,7 @@
     "deadline":"2018/01/01",
     "version":"0.0.4",
     "updateUrl":"https://gitlab.cae.com/rhran/auto-actor/blob/fit/release/auto-actor-0.0.3.crx",
+    "updateLog":"https://logike.cn",
     "contextMessage":"重大版本升级",
     "updateItem":[
       {
