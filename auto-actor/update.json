@@ -1,6 +1,7 @@
 {
-  "deadline":"2018/03/01",
-  "version":"0.0.4",
+  "latestVersion":"0.0.4",
+  "updateDeadline":"2018/03/01",  
+  "useDeadline":"2018/03/01"
   "updateUrl":"https://gitlab.cae.com/rhran/auto-actor/blob/release/release/auto-actor-0.0.4.crx",
   "updateLog":"https://gitlab.cae.com/rhran/auto-actor/blob/release/CHANGELOG",
   "contextMessage":"重大版本升级",
@@ -29,37 +30,5 @@
       "title":"6",
       "message":"增加一些交互性动画、提示功能"
     }
-  ],
-  "formFill":{
-    "deadline":"2018/01/11",
-    "updateUrl":"https://gitlab.cae.com/rhran/auto-actor/blob/release/release/auto-actor-0.0.4.crx",
-    "contextMessage":"新功能",
-    "updateItem":[
-      {
-        "title":"1",
-        "message":"支持上传下载case至服务器"
-      },
-      {
-        "title":"2",
-        "message":"支持编写拖拽排序 step,action"
-      },
-      {
-        "title":"3",
-        "message":"为容器提供“启用”、“禁用”的配置，全局控制该容器下的用例是否生效"
-      },
-      {
-        "title":"4",
-        "message":"重构用例结构，每一个用例都是独立的个体，配置互不干扰。采用“容器”的概念，将各个case从逻辑上聚集在一起"
-      },
-      {
-        "title":"5",
-        "message":"关闭 YAML 编写模式"
-      },
-      {
-        "title":"6",
-        "message":"增加一些交互性动画、提示功能"
-      }
-    ],
-    "version":"0.0.4"
-  }
+  ]
 }
