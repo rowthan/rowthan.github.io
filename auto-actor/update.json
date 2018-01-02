@@ -31,7 +31,7 @@
     }
   ],
   "formFill":{
-    "deadline":"2018/01/11,
+    "deadline":"2018/01/11",
     "updateUrl":"https://gitlab.cae.com/rhran/auto-actor/blob/release/release/auto-actor-0.0.4.crx",
     "contextMessage":"新功能",
     "updateItem":[
