@@ -1,13 +1,13 @@
 {
-  "latestVersion":"0.0.4.1",
+  "latestVersion":"0.1.1",
   "updateDeadline":"2019/01/01",
-  "updateUrl":"https://gitlab.cae.com/rhran/auto-actor/blob/release/release/auto-actor-0.0.4.1.crx",
-  "updateLog":"https://gitlab.cae.com/rhran/auto-actor/blob/release/CHANGELOG",
-  "contextMessage":"缺陷修复",
+  "updateUrl":"https://gitlab.cae.com/rhran/auto-actor/raw/temp_release/release/auto-actor-0.1.1.zip",
+  "updateLog":"",
+  "contextMessage":"功能升级，缺陷修复",
   "updateItem":[
     {
       "title":"1",
-      "message":"修复0.0.4版本bug"
+      "message":"修复访问https网站时，数据无法传输的问题"
     }
   ]
 }
