@@ -103,5 +103,5 @@ lazy_load_disqus :
 # ---------------- #
 #    Analytics     #
 # ---------------- #
-google:
-    analytics_id:
+baidu:
+    analytics_id: b8e985c27ed0a7ec77e82525cd4a0933

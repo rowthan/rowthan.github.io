@@ -1,22 +1,13 @@
 {
-  "formFill":{
-    "deadline":"2017/11/30",
-    "updateUrl":"https://gitlab.cae.com/rhran/auto-actor/release/auto-actor-0.0.2.crx",
-    "contextMessage":"new",
-    "updateItem":[
-      {
+  "latestVersion":"0.1.1",
+  "updateDeadline":"2019/01/01",
+  "updateUrl":"https://gitlab.cae.com/rhran/auto-actor/raw/temp_release/release/auto-actor-0.1.1.zip",
+  "updateLog":"",
+  "contextMessage":"功能升级，缺陷修复",
+  "updateItem":[
+    {
       "title":"1",
-      "message":"引入 whats-element 方便写用例时定位元素。统一标识符规范，不再使用“#”，“.”前缀区分"
-      },
-      {
-        "title":"2",
-        "message":"不再支持 “radio”的action类型，通过 input 和 click 两种方式支持 radio 行为"
-      },
-      {
-        "title":"3",
-        "message":"增加复制用例功能"
-      }
-    ],
-    "version":"0.0.2"
-  }
+      "message":"修复访问https网站时，数据无法传输的问题"
+    }
+  ]
 }
