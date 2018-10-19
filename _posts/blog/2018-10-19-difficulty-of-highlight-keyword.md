@@ -66,7 +66,7 @@ element.innerHTML = element.innerHTML.replace(finder,function(matched){
 
 > 总之在经过了N多尝试之后，通过正则都没能有效的处理各种情况。然后换了个思路，不通过字符串的方式，通过节点处理。element.childNodes 可以最有效的清理标签内的干扰信息。
 
-### 通过 DOM 节点处理
+### [完美解决方案]通过 DOM 节点处理
 ```
  <div id="parent">
     keyword 1
