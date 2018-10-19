@@ -15,7 +15,7 @@ keywords: 高亮 关键字 js 正则 Text节点 原生
 
 ### 常用做法：正则替换
 
-> 思路：要想高亮元素，那么需要将关键字提取出来用标签包裹，然后对标签进行样式调整。使用 innerHTML，或 outHTML, 而不能使用 innerText,outText。在苦苦挣扎了许久之后，到目前为止尚未发现通过正则能够精准无 bug 实现该功能的方法。
+> 思路：要想高亮元素，那么需要将关键字提取出来用标签包裹，然后对标签进行样式调整。使用 innerHTML，或 outHTML, 而不能使用 innerText,outText。
 
 ```
 const regex = new RegExp(keyword,"g")
@@ -33,7 +33,7 @@ element.classList.add("highlight")
 ```
 * 关键字父节点 element 通过 class 来进行背景染色处理，对原始DOM有一定程度污染，可能对 element 再次定位造成影响。（作为插件希望尽可能少改变原始DOM）
 
-#### 正则优化一：只处理位于标签内的元素
+#### 正则优化一：仅处理位于标签内的元素
 ```
 var formatKeyword = text.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&') // 转义处理keyword包含的特殊字符，如 /.
 var finder = new RegExp(">.*?"++".*?<") // 提取位于标签内的文本，避免误操作 class、id 等
@@ -42,7 +42,7 @@ element.innerHTML = element.innerHTML.replace(finder,function(matched){
         return matched.replace(text,"<br>"+text+</br>)
 })// 对提取的标签内文本进行关键字替换
 ```
-以能解决大多数问题，但依旧存在的问题是,只要标签属性存在类似 < 符号，将会打破匹配规则, HTML5 dataset 可以自定义任意内容，所以这些特殊字符是无法避免的。
+以能解决大多数问题，但依旧存在的问题是,只要标签属性存在类似 < 符号，将会打破匹配规则导致正则提取内容错误, HTML5 dataset 可以自定义任意内容，故这些特殊字符是无法避免的。
 
 ```
   <div dataset="p>d">替换</div>
@@ -75,9 +75,9 @@ element.innerHTML = element.innerHTML.replace(finder,function(matched){
   </span>
  </div>
 ```
-通过 parent.childNodes 得到所有子节点。child 节点很轻松的可以通过 innerText.replce(keyword,result) 的方式替换得到想要的高亮效果,如下：
+通过 parent.childNodes 得到所有子节点。child 节点可以通过 innerText.replce(keyword,result) 的方式替换得到想要的高亮效果,如下：
 `<span id="child"><b>keyword</b> 2</span>`
-（递归处理当child节点不含子节点时进行replace操作）。
+（递归处理：当child节点不含子节点时进行replace操作）。
 
 但是 keyword 1 是属于文本节点，只能修改文本内容，无法增加 HTML，更无法单独控制其样式。而文本节点也不能转换为普通节点，这也是最苦恼的事情。
 
