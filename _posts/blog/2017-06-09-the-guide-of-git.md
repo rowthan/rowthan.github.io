@@ -122,6 +122,8 @@ http://blog.csdn.net/dwarven/article/details/46550117
 
 ### work tree 整理
 work tree 太混乱有没有办法能够梳理干净一点？  http://blog.csdn.net/wh_19910525/article/details/7554489
+批量删除远程已经合并的分支
+> git branch -r --merged | grep origin | grep -v -e master | sed s/origin\\/// |  xargs -I{} git push origin --delete {}
 ## gitlab
 * 
 ## github
