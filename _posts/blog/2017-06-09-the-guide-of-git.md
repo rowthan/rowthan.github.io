@@ -9,7 +9,8 @@ update: 2018/01/29
 
 > 记录 Git 日常使用技巧和指令
 
-## git 初始化
+## 基础
+
 ### 认证
 * 密钥是可以共享的，即多个平台可以使用一份密钥（gitlab、git*）
 
@@ -26,24 +27,86 @@ _注：_ 修改连接前提是，存在 origin  连接。
 > git remote -v
 
 _注：_ 如果是通过 `git clone` 下载下来的代码，已经存在默认连接。本地 `git init`则需要手动添加。
-### 分支相关
-查看本地分支以及远程分支（-a 参数会显示远程分支）
-> git branch -a
 
-重命名分支
-> git branch -m oldnamebranc newnamebranch 
+## Branch
+* 越少越好，用完即删。复用分支。
 
-* 频繁增删分支，可以通过 `-m` 方式实现
+`git branch -m old_branch new_branch` 
 
-从远程分支下拉取到创建新分支,如果本地不存在该分支，则新建分支。不必 checkout -b 创建分支。
-> git fetch origin originBranch:newBranch
+* 命名清晰
 
-### 代码提交
-* 不想跟踪一些不必要的文件，如 `.idea/` (文件或文件夹)
-> .gitignore
-> git rm --cached file
-重新提交上一次 commit
-> git commit --amend
+`git checkout -b feature/login`
+
+* 合并分支。未交付本分支代码时（指本分支代码没有被合并至其他分支，没有被其他人公共使用），使用rebase更新。
+
+```text
+git commit -m '功能1' // a
+git commit -m '功能2' // b
+git pull origin master --rebase
+// 通过rebase操作后，a、b 节点 hash 会发生改变为 a1,b1（故要求a、b没有被其他地方使用到），此操作能保证 a1,b1将位于整个commit树最前沿。
+```
+
+* 查看本地分支以及远程分支（-a 参数会显示远程分支）
+```text
+git branch -a
+```
+
+* 从远程分支下拉取到创建新分支,如果本地不存在该分支，则新建分支。不必 checkout -b 创建分支。
+```text
+git fetch origin originBranch:newBranch
+```
+
+* 一次性更新本地所有分支
+```text
+git branch | awk 'BEGIN{print "echo ****Update all local branch...@daimon***"}{if($1=="*"){current=substr($0,3)};print a"git checkout "substr($0,3);print "git pull --all";}END{print "git checkout " current}' |sh
+``` 
+
+* 批量删除远程已经合并的分支
+```text
+git branch -r --merged | grep origin | grep -v -e master | sed s/origin\\/// |  xargs -I{} git push origin --delete {}
+``` 
+
+## Commit
+> 好的 commit 的记录，对项目质量分析、发布日志管理、代码回滚都有很大的帮助。
+
+* 忽略文件跟踪
+
+`.gitignore`
+`git rm --cached file`
+
+* 按可交付功能为单位提交。保证reset到任意一个commit节点，系统都能正常工作。
+```text
+git commit -m '登录框UI初始化' // a
+git commit -m '接入登录接口' // b
+git commit -m '修改登录按钮样式' //c
+```
+优化1->
+```text
+git reset HEAD~3
+git commit -m '新增登录功能' //d
+```
+优化2->
+```text
+git commit -m '登录框UI初始化' // e
+git commit -m --amend '接入登录接口' //f
+git commit -m --amend '新增登录功能' //g
+```
+
+* 可读性，三段式注释。GitHub、Jira 等系统能够通过特定的 commit 内容关联到相关链接。如GitHub：#456 能够自动关闭#456 issue。避免无明显意义的注释，如`bugfix` `修复缺陷` 
+```text
+refactor: change let into const(#457)
+
+this patch:
+- changes 'let' into 'canst'
+- adds eslint check to prefer const over let
+```  
+注释的首位标识符，可以根据规范使用 refactor、feature、bugfix 等，用户在进行代码发布时读取commit记录，自动生成changelog。
+
+* 适当添加 emoji
+
+`git commit -m ':bug:修复变量修饰符：const->let'` // emoji支持见下方
+
+## 操作
 
 ### reset VS revert
 * git reset 后是不是很危险，重置了就再也找不回来了？
@@ -74,15 +137,17 @@ revert是撤销之前的commit 并生成一个新的commit节点，这些commit�
 
 和merge不同的是不会新生成一个merge节点，并且会整个各个分支的commit节点到一起
 rebase 高级用法
-> git rebase -i commintNo  
-> git rebase branch
-
-https://ihower.tw/blog/archives/3843
-不要rebase一个已经push出去的分支 https://ihower.tw/blog/archives/2622
+```
+git rebase -i commintNo 
+git rebase branch
+``` 
+不要rebase一个已经push出去的分支
 
 一次性将所有远程（remote）的代码更新至当前分支
-> git pull --all
-### 樱桃采摘
+```text
+git pull --all
+``` 
+### cherry-pick
 > git checkout master  
 git cherry-pick 62ecb3 
 ### 选择性合并
@@ -113,21 +178,27 @@ http://blog.csdn.net/dwarven/article/details/46550117
 > git stash save "暂存"  
 > git stash apply
 
-### git 语句
-一次性更新本地所有分支
-> git branch | awk 'BEGIN{print "echo ****Update all local branch...@daimon***"}{if($1=="*"){current=substr($0,3)};print a"git checkout "substr($0,3);print "git pull --all";}END{print "git checkout " current}' |sh
 
 ### git 快捷键
 > git config --global alias.st status
 
 ### work tree 整理
 work tree 太混乱有没有办法能够梳理干净一点？  http://blog.csdn.net/wh_19910525/article/details/7554489
+<<<<<<< HEAD
 批量删除远程已经合并的分支
 > git branch -r --merged | grep origin | grep -v -e master | sed s/origin\\/// |  xargs -I{} git push origin --delete {}
 ## gitlab
 * 
+=======
+## git hooks
+ 
+
+
+>>>>>>> git 按照概念整理
 ## github
 * 搭建自己的免费网站
+
+如用户名为 a,创意一个 a.github.io 的项目，将自动生成一个域名为 a.github.io 的静态服务。
 
 ## git emoji
 
@@ -163,13 +234,4 @@ work tree 太混乱有没有办法能够梳理干净一点？  http://blog.csdn.
 |:wrench: (扳手)                         | `:wrench:`                   | 修改配置文件|
 |:globe_with_meridians: (地球)           | `:globe_with_meridians:`     | 国际化与本地化|
 |:pencil2: (铅笔)                        | `:pencil2:`                  | 修复 typo|
-
-## 提交规范
-good:   
-```javascript
-change let into const(#457)
-this patch:
-- changes 'let' into 'canst'
-- adds eslint check to prefer const over let
-```
 
