@@ -139,6 +139,17 @@ git stash save '暂存'
 ## Tag
 > 相比使用release功能分支做代码更新的机制，Tag能保证唯一性，代码不受被后续合并污染。结合CI能够更好的做到持续部署。
 
+## MR
+> 以功能单位进行合并，在gitlab网页操作时，可选squash操作：服务器端的commit压缩操作（类`git rebase -i`）。
+
+## CI/CD
+* 通过 .gitlab-ci.yml 文件定义CI构建过程。
+* Gitlab 本身不提供构建服务，只提供触发机制。能保证代码变，系统变。
+* 构建服务需要单独部署，通过与「注册」与Gitlab建立连接关系。构建服务可以被共享。
+
+## workflow
+
+
 ## 操作
 ### reset VS revert
 * git reset 后是不是很危险，重置了就再也找不回来了？
@@ -235,7 +246,11 @@ git config --global alias.st status
 work tree 太混乱有没有办法能够梳理干净一点？  http://blog.csdn.net/wh_19910525/article/details/7554489
 
 ## git hooks
-> 支持钩子，如：在commit前对代码格式化检测，如不通过无法commit；commit自动修改commit注释内容，增加标识（如Gerrit系统）
+> 支持钩子，如：在pre-commit钩子前对代码格式化检测，如不通过无法commit；commit自动修改commit注释内容，增加标识（如Gerrit系统）
+
+[git hooks](https://www.git-scm.com/book/zh/v2/%E8%87%AA%E5%AE%9A%E4%B9%89-Git-Git-%E9%92%A9%E5%AD%90)
+
+
 
 ## github
 * 搭建自己的免费网站
