@@ -1,4 +1,12 @@
 [
+    
+    {
+        "id": "1001",
+        "show": "2",
+        "expireDate": "01/01/2025",
+        "text_en":  "有新版本可用了。您可先卸载后重新安装 https://chrome.google.com/webstore/detail/copy-pixel/iljifliapaimkofafkddpgkfkmnocajf",
+        "text_zh":  "有新版本可用了。您可先卸载后重新安装 https://chrome.google.com/webstore/detail/copy-pixel/iljifliapaimkofafkddpgkfkmnocajf"
+    },
     {
         "id": "1000",
         "show": "1",
