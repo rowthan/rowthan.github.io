@@ -86,10 +86,11 @@ element.innerHTML = element.innerHTML.replace(finder,function(matched){
 
 [源码以及还原高亮见源码](https://github.com/rowthan/easyshare/blob/master/src/document.js#L20)
 ```
-const reg = new RegExp(keyword.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&'))
-highlight = function (node,reg){
+
+highlight = function (node,keyword){
+    const reg = new RegExp(keyword.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&'))
     if (node.nodeType == 3) {  //只处理文本节点
-        const match = node.data.match(new RegExp(reg));
+        const match = node.data.match(reg);
         if (match) {
           const highlightEl = document.createElement("b");
           highlightEl.dataset.highlight="y"
@@ -108,4 +109,13 @@ highlight = function (node,reg){
     }  
 }
 ```
-最后，留个彩蛋，以上方法也是存在一个小 bug 的，有兴趣可以去发现一下。
+以上问题存在一个问题。在页面上显示的是 `关键字` ，但实际的DOM节点中可能存在以下情况：
+`关键`是一个文本节点，`字`是一个文本节点。这种情况下，高亮'关键词'就无法正确高亮。
+```html
+<span>
+关键
+词
+</span>
+```
+
+[多关键词高亮后记](https://logike.cn/coding/highlight-keyword-follow-up.html)
