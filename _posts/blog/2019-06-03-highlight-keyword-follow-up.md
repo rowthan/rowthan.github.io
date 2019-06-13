@@ -12,7 +12,8 @@ keywords: 高亮 关键字 js 正则 Text节点 原生
 半年后在工作中又遇到了同样的问题，这次不同在于：
 * 前者是通过插件的方法来高亮处理，直接操作DOM元素，可以借助文本节点，而本次需要在Vue组件中使用，输入值为纯字符串。
 * 本次是需要一次性高亮多关键词，所以需要避免关键词高亮相互影响。
-```vue
+
+```
 <p ref="item_text" v-html="highlightKeywords(item.title)"></p>
 ```
 
@@ -23,7 +24,7 @@ keywords: 高亮 关键字 js 正则 Text节点 原生
 所以我们首先需要经过一段计算，标记每一个关键词在字符串中的位置，得到一个完整的图谱之后，按照倒序的顺从后到前进行高亮（从后到前是为了保证因为高亮填入新的字符导致index发生偏移）。
 
 代码如下：
-```javascript
+```
 highlightKeywords (title='abcdefghijk',keywords='b h'){
       const keywords = this.keywords.split(/\s+/)
       let keywordMap = {}
