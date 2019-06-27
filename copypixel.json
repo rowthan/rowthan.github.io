@@ -1,5 +1,12 @@
 [
     {
+        "id": "1003",
+        "show": "1",
+        "expireDate": "01/01/2020",
+        "text_zh":  "0.0.10版本升级日志：支持图片拖拽上传。",
+        "text_en":  "Version 0.0.10 Upgrade Log: Support drag-and-drop upload of images.",
+    },
+    {
         "id": "1002",
         "show": "2",
         "expireDate": "01/01/2025",
