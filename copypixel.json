@@ -1,5 +1,12 @@
 [
     {
+        "id": "1004",
+        "show": "1",
+        "expireDate": "01/01/2020",
+        "text_zh":  "0.0.12 版本升级日志：修正一些样式问题；支持记录面板折叠状态，刷新页面后还原上一次状态。",
+        "text_en":  "Version 0.0.12 Upgrade Log: fix some style bugs. Record status for the panel is supported ."
+    },
+    {
         "id": "1003",
         "show": "1",
         "expireDate": "01/01/2020",
