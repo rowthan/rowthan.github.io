@@ -1,5 +1,12 @@
 [
     {
+        "id": "1005",
+        "show": "1",
+        "expireDate": "01/01/2020",
+        "text_zh":  "0.0.13 版本升级日志：提供反馈入口，您可点击面板右上角「反馈」提交你的建议和意见。",
+        "text_en":  "Version 0.0.13 Upgrade Log: Feedback is supported"
+    },
+    {
         "id": "1004",
         "show": "1",
         "expireDate": "01/01/2020",
