@@ -98,11 +98,14 @@
 
 hookAjax({
   //拦截回调
-  onreadystatechange:function(xhr,second){
-    xhrObject = xhr;
+  onreadystatechange:function(xhrObject,second){
+    if(!xhrObject || xhrObject.readyState!==4){
+      return
+    }
+
     const response = xhrObject.responseText||xhrObject.response;
     const requestUrl = xhrObject.xhr.responseURL;
-    console.log(xhrObject,second);
+    console.log(xhrObject,'----',second);
     localStorage.setItem(requestUrl,response);
   },
   onload:function(xhr){
@@ -110,9 +113,8 @@ hookAjax({
   },
   //拦截方法
   open:function(arg,xhr){
-    xhrObject = xhr;
   },
   send:function (xhr) {
-    xhrObject.setRequestHeader("AJAXHOOK",'0.0.1');
+    xhr.setRequestHeader("AJAXHOOK",'0.0.1');
   }
 });
