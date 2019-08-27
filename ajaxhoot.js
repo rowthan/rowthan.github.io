@@ -5,7 +5,9 @@ hookAjax({
   onreadystatechange:function(xhr){
     xhrObject = xhr;
     const response = xhrObject.responseText||xhrObject.response;
-    console.log(xhrObject,response)
+    const requestUrl = xhrObject.xhr.responseURL;
+    console.log(xhrObject.xhr.responseURL,response)
+    localStorage.setItem(requestUrl,response);
   },
   onload:function(xhr){
     console.log("onload called: %O",xhr)
