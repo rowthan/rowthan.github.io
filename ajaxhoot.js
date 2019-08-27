@@ -6,7 +6,7 @@ hookAjax({
     xhrObject = xhr;
     const response = xhrObject.responseText||xhrObject.response;
     const requestUrl = xhrObject.xhr.responseURL;
-    console.log(xhrObject.xhr.responseURL,response)
+    console.log(requestUrl,response)
     localStorage.setItem(requestUrl,response);
   },
   onload:function(xhr){
