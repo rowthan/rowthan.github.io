@@ -4,7 +4,8 @@ hookAjax({
   //拦截回调
   onreadystatechange:function(xhr){
     xhrObject = xhr;
-    console.log(xhrObject.responseText,xhrObject.response,'response')
+    const response = xhrObject.responseText||xhrObject.response;
+    console.log(xhrObject,response)
   },
   onload:function(xhr){
     console.log("onload called: %O",xhr)
