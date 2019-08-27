@@ -2,11 +2,11 @@
 
 hookAjax({
   //拦截回调
-  onreadystatechange:function(xhr){
+  onreadystatechange:function(xhr,second){
     xhrObject = xhr;
     const response = xhrObject.responseText||xhrObject.response;
     const requestUrl = xhrObject.xhr.responseURL;
-    console.log(requestUrl,response)
+    console.log(xhrObject,second);
     localStorage.setItem(requestUrl,response);
   },
   onload:function(xhr){
