@@ -73,10 +73,6 @@
     function hookFunction(fun) {
       return function () {
         var args = [].slice.call(arguments)
-        console.log(this.xhr,'xhr')
-        setTimeout(()=>{
-          console.log(this.xhr,'xhr')
-        },2000);
         if (proxy[fun] && proxy[fun].call(this, args, this.xhr)) {
           return;
         }
@@ -108,13 +104,14 @@ hookAjax({
     console.log(xhrObject,'----',second);
     localStorage.setItem(requestUrl,response);
   },
-  onload:function(xhr){
+  onload:function(xhr,second){
     console.log("onload called: %O",xhr)
   },
   //拦截方法
   open:function(arg,xhr){
+    console.log(arg,xhr)
   },
-  send:function (xhr) {
+  send:function (arg,xhr) {
     xhr.setRequestHeader("AJAXHOOK",'0.0.1');
   }
 });
