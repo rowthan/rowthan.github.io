@@ -92,17 +92,20 @@
 
 })(window)
 
+// i want you see this
+
 hookAjax({
   //拦截回调
-  onreadystatechange:function(xhrObject,second){
+  onreadystatechange:function(xhrObject){
     if(!xhrObject || xhrObject.readyState!==4){
       return
     }
-
     const response = xhrObject.responseText||xhrObject.response;
     const requestUrl = xhrObject.xhr.responseURL;
-    console.log(xhrObject,'----',second);
-    localStorage.setItem(requestUrl,response);
+    const STORE_KEY = 'request-response';
+    const store = JSON.parse(localStorage.getItem(STORE_KEY)|| "{}");
+    store[requestUrl] = response;
+    localStorage.setItem(STORE_KEY,JSON.stringify(store));
   },
   onload:function(xhr,second){
     console.log("onload called: %O",xhr)
