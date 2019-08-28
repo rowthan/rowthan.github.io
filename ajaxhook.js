@@ -100,15 +100,20 @@ hookAjax({
     if(!xhrObject || xhrObject.readyState!==4){
       return
     }
-    const response = xhrObject.responseText||xhrObject.response;
-    const requestUrl = xhrObject.xhr.responseURL;
-    const STORE_KEY = 'request-response';
-    const store = JSON.parse(localStorage.getItem(STORE_KEY)|| "{}");
-    store[requestUrl] = response;
-    localStorage.setItem(STORE_KEY,JSON.stringify(store));
+    try{
+      const response = xhrObject.responseText||xhrObject.response;
+      const requestUrl = xhrObject.xhr.responseURL;
+      const STORE_KEY = 'request-response';
+      const store = JSON.parse(localStorage.getItem(STORE_KEY)|| "{}");
+      store[requestUrl] = response;
+      localStorage.setItem(STORE_KEY,JSON.stringify(store));
+    }catch (e) {
+
+    }
+
   },
   onload:function(xhr,second){
-    console.log("onload called: %O",xhr)
+    // console.log("onload called: %O",xhr)
   },
   //拦截方法
   open:function(arg,xhr){
