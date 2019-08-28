@@ -3,7 +3,7 @@
         "id": "1006",
         "show": "1",
         "expireDate": "01/01/2020",
-        "text_zh":  "0.0.14 版本升级日志：1、现在你可以在input框中修改图片尺寸大小了。<br/> 2、新上传的图层我们为您默认设置了名称，当然你可以双击后自行修改。<br/>3、修复了一个些bug，例如图层文件丢失后无法删除图层的情情况。,
+        "text_zh":  "0.0.14 版本升级日志：<br/>1、可以通过尺寸面板修改图片大小了。<br/> 2、新上传的图层我们为您默认设置了名称，当然你可以双击后自行修改。<br/>3、修复了一些bug，例如图层文件丢失后无法删除图层的情况。",
         "text_en":  "Version 0.0.14 Upgrade Log:1 you can modify your image size. 2 default layer title is supported. 3 fix some bugs."
     },
     {
@@ -34,7 +34,7 @@
         "text_en":  "0.0.5版本升级：优化UI，增加面板伸缩功能：卸载后重新安装 <a href='https://chrome.google.com/webstore/detail/copy-pixel/iljifliapaimkofafkddpgkfkmnocajf'>点击进入</a>",
         "text_en":  "0.0.5版本升级：优化UI，增加面板伸缩功能：卸载后重新安装 <a href='https://chrome.google.com/webstore/detail/copy-pixel/iljifliapaimkofafkddpgkfkmnocajf'>点击进入</a>"
     },
-    
+
     {
         "id": "1001",
         "show": "2",
