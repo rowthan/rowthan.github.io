@@ -104,9 +104,10 @@ hookAjax({
       const response = xhrObject.responseText||xhrObject.response;
       const requestUrl = xhrObject.xhr.responseURL;
       const STORE_KEY = 'request-response';
-      const store = JSON.parse(localStorage.getItem(STORE_KEY)|| "{}");
-      store[requestUrl] = response;
-      localStorage.setItem(STORE_KEY,JSON.stringify(store));
+      // const store = JSON.parse(localStorage.getItem(STORE_KEY)|| "{}");
+      // store[requestUrl] = response;
+      // localStorage.setItem(STORE_KEY,JSON.stringify(store));
+      localStorage.setItem(requestUrl,JSON.stringify(response));
     }catch (e) {
 
     }
