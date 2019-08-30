@@ -101,13 +101,14 @@ hookAjax({
       return
     }
     try{
-      const response = xhrObject.responseText||xhrObject.response;
+      const response = !xhrObject.responseType|| xhrObject.responseType==='text' ? xhrObject.responseText:xhrObject.response;
       const requestUrl = xhrObject.xhr.responseURL;
       const STORE_KEY = 'request-response';
       // const store = JSON.parse(localStorage.getItem(STORE_KEY)|| "{}");
       // store[requestUrl] = response;
       // localStorage.setItem(STORE_KEY,JSON.stringify(store));
-      localStorage.setItem(requestUrl,JSON.stringify(response));
+      const isString = typeof response === 'string';
+      localStorage.setItem(requestUrl,isString?response:JSON.stringify(response));
     }catch (e) {
 
     }
