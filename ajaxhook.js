@@ -103,6 +103,11 @@ hookAjax({
     try{
       const response = !xhrObject.responseType|| xhrObject.responseType==='text' ? xhrObject.responseText:xhrObject.response;
       const requestUrl = xhrObject.xhr.responseURL;
+      // TODO 黑名单过滤
+      if(!requestUrl || requestUrl.indexOf(window.location.host)===-1){
+        return;
+      }
+
       const STORE_KEY = 'request-response';
       // const store = JSON.parse(localStorage.getItem(STORE_KEY)|| "{}");
       // store[requestUrl] = response;
@@ -119,7 +124,7 @@ hookAjax({
   },
   //拦截方法
   open:function(arg,xhr){
-    console.log(arg,xhr)
+    // console.log(arg,xhr)
   },
   send:function (arg,xhr) {
     xhr.setRequestHeader("AJAXHOOK",'0.0.1');
