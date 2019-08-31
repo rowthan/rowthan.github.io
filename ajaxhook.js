@@ -127,6 +127,6 @@ hookAjax({
     // console.log(arg,xhr)
   },
   send:function (arg,xhr) {
-    xhr.setRequestHeader("AJAXHOOK",'0.0.1');
+    // xhr.setRequestHeader("AJAXHOOK",'0.0.1');
   }
 });
