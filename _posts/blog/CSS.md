@@ -144,6 +144,23 @@ display: flex;
 ```
 
 
+### css变量
+```css
+    --google-blue-600: rgb(26, 115, 232);
+    --google-blue-700: rgb(25, 103, 210);
+    --google-gray-50: rgb(248, 249, 250);
+    --google-gray-300: rgb(218, 220, 224);
+    --google-gray-500: rgb(154, 160, 166);
+    --google-gray-600: rgb(128, 134, 139);
+    --google-gray-700: rgb(95, 99, 104);
+    background-color: #fff;
+    color: var(--google-gray-700);
+    word-wrap: break-word;
+```
+
+### 动态css
+使用 atr()
+
 ## CSS 黑魔法
 counter(li)
 http://www.jb51.net/css/434280.html
