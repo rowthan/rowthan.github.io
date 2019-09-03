@@ -103,7 +103,7 @@
 hookAjax({
   //拦截回调
   onreadystatechange:function(xhrObject){
-    console.log(xhrObject,'changed',xhrObject.readyState);
+    console.log(xhrObject,'changed'+xhrObject.readyState);
     if(!xhrObject || xhrObject.readyState!==4){
       return
     }
@@ -133,6 +133,9 @@ hookAjax({
 
     }
 
+  },
+  onerror: function(xhr){
+    console.log(xhr,'error');
   },
   onload:function(xhr,second){
     // console.log("onload called: %O",xhr)
