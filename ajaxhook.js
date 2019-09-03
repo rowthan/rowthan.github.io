@@ -31,6 +31,12 @@
           })
         }
       }
+      Object.defineProperty(xhr, 'responseText', {
+        writable: true
+      });
+      Object.defineProperty(xhr, 'response', {
+        writable: true
+      });
       this.xhr = xhr;
 
     };
@@ -101,8 +107,16 @@ hookAjax({
       return
     }
     try{
-      const response = !xhrObject.responseType|| xhrObject.responseType==='text' ? xhrObject.responseText:xhrObject.response;
       const requestUrl = xhrObject.xhr.responseURL;
+      var cacheContent = localStorage.getItem(requestUrl) || false;
+      if(window.cacheHttp && cacheContent){
+        console.log('user cache http');
+        xhrObject.responseText = xhrObject.response = cacheContent;
+        return;
+      }
+
+      const response = !xhrObject.responseType|| xhrObject.responseType==='text' ? xhrObject.responseText:xhrObject.response;
+
       // TODO 黑名单过滤
       if(!requestUrl || requestUrl.indexOf(window.location.host)===-1){
         return;
