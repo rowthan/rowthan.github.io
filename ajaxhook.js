@@ -103,6 +103,7 @@
 hookAjax({
   //拦截回调
   onreadystatechange:function(xhrObject){
+    console.log(xhrObject,'changed',xhrObject.readyState);
     if(!xhrObject || xhrObject.readyState!==4){
       return
     }
@@ -111,7 +112,7 @@ hookAjax({
       var cacheContent = localStorage.getItem(requestUrl) || false;
       if(window.cacheHttp && cacheContent){
         console.log('user cache http');
-        xhrObject.responseText = xhrObject.response = cacheContent;
+        xhrObject.responseText = xhrObject.response = cacheContent.replace('0,','1,');
         return;
       }
 
