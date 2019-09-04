@@ -110,18 +110,18 @@ hookAjax({
     try{
       const requestUrl = xhrObject.xhr.responseURL;
       var cacheContent = localStorage.getItem(requestUrl) || false;
-      if(window.cacheHttp && cacheContent){
-        console.log('user cache http');
-        try{
-          var data = JSON.parse(cacheContent);
-          data.code =1;
-          xhrObject.responseText = xhrObject.response = JSON.stringify(data);
-        }catch (e) {
-          console.error(cacheContent,'parse error')
-        }
-
-        return;
-      }
+      // if(window.cacheHttp && cacheContent){
+      //   console.log('user cache http');
+      //   try{
+      //     var data = JSON.parse(cacheContent);
+      //     data.code =1;
+      //     xhrObject.responseText = xhrObject.response = JSON.stringify(data);
+      //   }catch (e) {
+      //     console.error(cacheContent,'parse error')
+      //   }
+      //
+      //   return;
+      // }
 
       const response = !xhrObject.responseType|| xhrObject.responseType==='text' ? xhrObject.responseText:xhrObject.response;
 
