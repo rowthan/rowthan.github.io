@@ -112,7 +112,14 @@ hookAjax({
       var cacheContent = localStorage.getItem(requestUrl) || false;
       if(window.cacheHttp && cacheContent){
         console.log('user cache http');
-        xhrObject.responseText = xhrObject.response = cacheContent.replace('0,','1,');
+        try{
+          var data = JSON.parse(cacheContent);
+          data.code =1;
+          xhrObject.responseText = xhrObject.response = JSON.stringify(data);
+        }catch (e) {
+          console.error(cacheContent,'parse error')
+        }
+
         return;
       }
 
