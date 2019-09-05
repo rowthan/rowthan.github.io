@@ -1,7 +1,7 @@
 [
     {
         "id": "1007",
-        "show": "2",
+        "show": "1",
         "expireDate": "01/01/2020",
         "text_zh":  "<div style='color: #333333;line-height: 18px;'>0.1.0 版本升级日志：<br>支持网络图片上传，输入URL即可，更加方便快捷。<a target='_blank' href='https://media.giphy.com/media/LOcx8lU4IVO5jeCPEL/giphy.gif'><img style='width: 230px;' src='https://media.giphy.com/media/LOcx8lU4IVO5jeCPEL/giphy.gif'/></a></div>",
         "text_en":  "<div style='color: #333333;line-height: 18px;'>0.1.0 release log：<br>Support upload a image by URL<a target='_blank' href='https://media.giphy.com/media/LOcx8lU4IVO5jeCPEL/giphy.gif'><img style='width: 230px;' src='https://media.giphy.com/media/LOcx8lU4IVO5jeCPEL/giphy.gif'/></a></div>"
