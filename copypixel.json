@@ -1,5 +1,11 @@
 [
     {
+        "id": "1008",
+        "show": "1",
+        "expireDate": "01/01/2020",
+        "text_zh":  "<div style='background:rgba(255,189,46,0.12);color: #FFBD2E;line-height: 18px;'>修复了一个bug: 现在起无论怎么拖拽，面板都不会无缘无故的消失了☺。调整图片大小时，长宽也能保持同比例变化。</div>"
+    },
+    {
         "id": "1007",
         "show": "1",
         "expireDate": "01/01/2020",
