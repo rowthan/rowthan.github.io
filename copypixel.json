@@ -1,5 +1,14 @@
 [
     {
+      "id": 1219,
+      "show": "1",
+      "expireDate": "01/01/2220",
+      "text_zh": "<div style='line-height: 18px;'>本期改动（<b>重大体验升级</b>）：<br><ul><li style='list-style: disc;'>刷新页面后面板的状态依旧保留，自动恢复至之前状态</li><li style='list-style: disc;'>修复了偶尔无法调出控制面板的问题；</li><li style='list-style: disc;'>插件按需加载，不使用时不会工作。不用担心性能问题。</li></ul></div>",
+      "text": "new version released”,
+      "minVersion": 0,
+      "maxVersion": 0
+    }
+    {
         "id": "1008",
         "show": "1",
         "expireDate": "01/01/2020",
