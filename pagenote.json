@@ -6,6 +6,7 @@
       "for_min_version":"0.4.3",
       "text_zh": "更新icon啦",
       "text_en": "更新icon啦",
-      "badge":"new"
+      "badge":"new",
+      "badge_color":"blue"
     }
 ]
