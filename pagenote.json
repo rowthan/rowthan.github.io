@@ -5,24 +5,8 @@
       "for_max_version":"0.5.1",
       "for_min_version":"0.5.1",
       "show_times":2,
-      "text_zh": "<div style="background-color: #ffd57e;margin-top: 20px;padding: 12px;border-radius: 4px">
-                hi，很高兴通知您，新的版本已经上架。建议您打开「自动更新」来获取最新版本。
-                本次更新：0.5.1
-                <ol>
-                    <li>
-                        根据标记颜色筛选笔记🔍。
-                    </li>
-                    <li>
-                        对设置、弹窗页面做了样式精简。
-                    </li>
-                    <li>
-                        增加页面相似度判断，避免因为URL不能完全匹配导致的标记无法出现。
-                    </li>
-                </ol>
-                更多本次更新内容，请查看 <a target="_blank" href="https://logike.cn/pagenote/changelog.md">更新记录</a>。
-                同时，邀请您参与我们的 <a target="_blank" href="https://www.wjx.cn/jq/69876579.aspx">问卷</a>
-            </div>",
-      "text_en": " <a target="_blank" href="https://logike.cn/pagenote/changelog.md">更新记录</a>",
+      "text_zh": "<div style='background-color: #ffd57e;margin-top: 20px;padding: 12px;border-radius: 4px'>hi，很高兴通知您，新的版本已经上架。建议您打开「自动更新」获取最新版本。本次更新：0.5.1<ol><li>根据标记颜色筛选笔记🔍。</li> <li>对设置、弹窗页面做了样式精简。 </li><li> 增加页面相似度判断，避免因为URL不能完全匹配导致的标记无法出现。</li> </ol>更多本次更新内容，请查看 <a target='_blank' href='https://logike.cn/pagenote/changelog.md'>更新记录</a>。 同时，邀请您参与我们的 <a target='_blank' href='https://www.wjx.cn/jq/69876579.aspx'>问卷</a></div>",
+      "text_en": "",
       "badge":"new",
       "badge_color":"blue"
     }
