@@ -1,5 +1,12 @@
 [
     {
+      "id": "2010",
+      "show": "1",
+      "expireDate": "05/01/2220",
+      "text_zh": "<div style='line-height: 18px;'>1、支持批量导入图片，直接拖拽或通过文件夹选择多张图片导入。2、支持剪切板粘贴图片：截图，ctrl+V即可导入图片，大大减少操作成本。</div>",
+      "text_en": "new version released"
+    },
+    {
       "id": "2009",
       "show": "1",
       "expireDate": "01/01/2220",
