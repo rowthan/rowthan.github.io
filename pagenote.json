@@ -1,7 +1,19 @@
 [
+
+    {
+      "id": 3,
+      "expireDate": "06/18/2020",
+      "for_max_version":"0.5.2",
+      "for_min_version":"0.5.2",
+      "show_times":2,
+      "text_zh": "<div style='background-color: #ffd57e;margin-top: 20px;padding: 12px;border-radius: 4px'>hi，经过一周新版本来咯：本次更新，1、增加批量操作，支持批量导出、删除；2、优化了搜索列表样式。</div>",
+      "text_en": "",
+      "badge":"new",
+      "badge_color":"pink"
+    },
     {
       "id": 2,
-      "expireDate": "04/18/2020",
+      "expireDate": "05/18/2020",
       "for_max_version":"0.5.1",
       "for_min_version":"0.5.1",
       "show_times":2,
