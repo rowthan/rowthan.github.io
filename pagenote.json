@@ -1,5 +1,15 @@
 [
-
+    {
+      "id": 4,
+      "expireDate": "05/12/2020",
+      "for_max_version":"0.6.3",
+      "for_min_version":"0.6.0",
+      "show_times":2,
+      "text_zh": "<div style='background-color: #ffd57e;margin-top: 20px;padding: 12px;border-radius: 4px'>hi，收假快乐，pagenote助力提高效率，0.6.x版本更新：<br/>1、增加了大纲侧边栏、自动点亮模式、新增网页快照；<br/>2、优化了样式体验，兼容移动设备。<br/>更多更新内容见<a href='https://logike.cn/pagenote/0.6.0.html' target='_blank'>详情</a></div>",
+      "text_en": "<div>new version bomb.<a href='https://logike.cn/pagenote/0.6.0.html' target='_blank'>0.6.x</a></div>",
+      "badge":"new",
+      "badge_color":"pink"
+    },
     {
       "id": 3,
       "expireDate": "06/18/2020",
