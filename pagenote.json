@@ -1,5 +1,16 @@
 [
     {
+      "id": 5,
+      "expireDate": "06/12/2020",
+      "for_max_version":"0.7.3",
+      "for_min_version":"0.6.0",
+      "show_times":2,
+      "text_zh": "<div style='background-color: #ffd57e;margin-top: 20px;padding: 12px;border-radius: 4px'>hi，这是一个版本预告，在0.8.0版本中，我们将致力于操作、界面的简化。抢先预览更新版本见<a href='https://logike.cn/pagenote/release.html' target='_blank'>详情</a></div>",
+      "text_en": "<div>new version bomb.<a href='https://logike.cn/pagenote/release.html' target='_blank'>0.8.x</a></div>",
+      "badge":"new",
+      "badge_color":"pink"
+    },
+    {
       "id": 4,
       "expireDate": "05/12/2020",
       "for_max_version":"0.6.3",
