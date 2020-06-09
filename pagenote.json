@@ -1,16 +1,4 @@
 [
-   {
-      "id": 8,
-      "expireDate": "08/12/2020",
-      "for_max_version":"0.5.1",
-      "for_min_version":"0.5.1",
-      "show_times":50,
-      "text_zh": "<div style='margin-top: 20px;padding: 12px;border-radius: 4px;color: red;border: 2px solid red;'>当前扩展已经不推荐使用了，也将不再更新维护。请卸载后安装最新版本。<a href='https://chrome.google.com/webstore/detail/page-notenote-message-in/hpekbddiphlmlfjebppjhemobaopekmp?utm_source=notification' target='_blank'>点击安装</a></div>",
-      "text_en": "<div style='margin-top: 20px;padding: 12px;border-radius: 4px;color: red;border: 2px solid red;'>The current extension has been deprecated and will no longer be updated and maintained.Please uninstall and install the latest version.<a href='https://chrome.google.com/webstore/detail/page-notenote-message-in/hpekbddiphlmlfjebppjhemobaopekmp?utm_source=notification' target='_blank'>Install</a></div>",
-      "badge":"new",
-      "badge_color":"blue",
-      "open_url":"https://pagenote.logike.cn/release"
-    },
     {
       "id": 5,
       "expireDate": "06/12/2020",
