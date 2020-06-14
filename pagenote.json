@@ -1,5 +1,17 @@
 [
     {	
+      "id": 10,	
+      "expireDate": "08/12/2020",	
+      "for_max_version":"0.8.1",	
+      "for_min_version":"0.8.0",	
+      "show_times":4,	
+      "text_zh": "<div style='margin-top: 20px;padding: 12px;border-radius: 4px;color: red;border: 2px solid red;'>现在，你可以将你的网页或笔记分享给你的小伙伴了。展开侧边栏，点击分享图标就可以啦。<a href='https://pagenote.logike.cn/release' target='_blank'>了解更多</a></div>",	
+      "text_en": "<div style='margin-top: 20px;padding: 12px;border-radius: 4px;color: red;border: 2px solid red;'>Now you can share your webpage and note to your friends. click and learn how to share<a href='https://pagenote.logike.cn/release' target='_blank'>Get</a></div>",	
+      "badge":"new",	
+      "badge_color":"blue",	
+      "open_url":"https://pagenote.logike.cn/release"	
+    },
+    {	
       "id": 9,	
       "expireDate": "08/12/2020",	
       "for_max_version":"0.5.1",	
