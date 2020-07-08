@@ -3,7 +3,7 @@
         "id": 16,
         "expireDate": "08/12/2020",
         "for_max_version":"0.9.0",
-        "for_min_version":"0.9.1",
+        "for_min_version":"0.9.2",
         "show_times":50,
         "text_zh": "<div style='max-width: 100%;margin-top: 20px;padding: 12px;border-radius: 4px;color: #b3533d;border: 1px dashed #333;'>更智能的管理你的PAGENOTE，猛戳 <a target='_blank' href='https://pagenote.logike.cn/me'>管理PAGENOTE</a></div>",
         "text_en": "<div style='max-width: 100%;margin-top: 20px;padding: 12px;border-radius: 4px;color: #b3533d;border: 1px dashed #333;'>更智能的管理你的PAGENOTE，猛戳 <a target='_blank' href='https://pagenote.logike.cn/me'>管理PAGENOTE</a></div>",
