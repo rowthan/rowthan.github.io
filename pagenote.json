@@ -1,5 +1,16 @@
 [    
-      {
+   {
+        "id": 17,
+        "expireDate": "12/12/2020",
+        "for_max_version":"0.13.0",
+        "for_min_version":"0.0.1",
+        "show_times":5,
+        "text_zh": "<div style='max-width: 100%;margin-top: 20px;padding: 12px;border-radius: 4px;color: #b3533d;border: 1px dashed #333;'> <a target='_blank' href='https://pagenote.cn/setting/?utm_source=notification'>一定要来DIY</a></div>",
+        "text_en": "<div style='max-width: 100%;margin-top: 20px;padding: 12px;border-radius: 4px;color: #b3533d;border: 1px dashed #333;'> <a target='_blank' href='https://pagenote.cn/setting/?utm_source=notification'>一定要来DIY</a></div>",
+        "badge":"new",
+        "badge_color":"blue",
+        "open_url":"https://pagenote.cn/release"
+     },   {
         "id": 17,
         "expireDate": "08/12/2020",
         "for_max_version":"0.11.0",
