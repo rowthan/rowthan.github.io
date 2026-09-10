@@ -1,0 +1,4 @@
+interface:
+  display_name: "Task Status"
+  short_description: "Manage Codex task status labels"
+  default_prompt: "Apply the configured status and two-digit number prefix to this Codex task title."
